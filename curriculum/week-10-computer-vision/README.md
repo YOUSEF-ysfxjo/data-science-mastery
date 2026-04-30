@@ -48,7 +48,7 @@
 
 ## Challenge
 
-Use Transfer Learning with ResNet50 to classify a dataset of your choice ([ChestX-ray, Cats vs Dogs, Custom](https://www.kaggle.com/datasets)). Upload the model to Hugging Face Hub.
+Use Transfer Learning with ResNet50 to classify a dataset of your choice from [Kaggle Datasets](https://www.kaggle.com/datasets) (Chest X-ray, Cats vs Dogs, or a custom dataset). Upload the trained model to [Hugging Face Hub](https://huggingface.co/docs/hub/models-uploading).
 
 ---
 
