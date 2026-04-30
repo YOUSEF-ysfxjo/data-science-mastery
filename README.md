@@ -89,13 +89,6 @@ We respect those who came before us. These are the references that influenced th
 
 ---
 
-## Contributing
-
-Want to add a resource or fix a mistake? Read [`CONTRIBUTING.md`](CONTRIBUTING.md).
-The contribution process itself is a Git exercise — fork, branch, PR.
-
----
-
 ## License
 
 MIT — use, modify, share. Just credit the source if you can.
