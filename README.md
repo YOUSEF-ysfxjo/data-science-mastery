@@ -64,18 +64,13 @@ Each week contains:
 
 ## How to Update This Repo (Best Practice)
 
-If you want to improve this project, please use GitHub contribution flow. Do **not** push directly to `main`.
+If you want to improve this project, use the PR workflow and do **not** push directly to `main`.
 
-1. Fork the repository to your account.
-2. Create a new branch for your change:
-   - Example: `docs/fix-typos-week-03` or `content/add-new-resource`
-3. Make your edits in that branch only.
-4. Commit with a clear message:
-   - Example: `docs: clarify week 3 exercise instructions`
-5. Open a Pull Request (PR) to this repository.
-6. Wait for maintainer review and approval before merge.
+- Start with a fork and create a dedicated branch for your change.
+- Open a Pull Request and wait for maintainer review before merge.
+- Follow the full contribution guide in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
-Only reviewed PRs are accepted. This keeps the curriculum clean, traceable, and high quality.
+Only reviewed PRs are accepted. This keeps the curriculum clean and consistent.
 
 ---
 
