@@ -67,7 +67,7 @@ for epoch in range(epochs):
 
 ## Challenge
 
-Train an MLP with PyTorch on the [MNIST dataset](http://yann.lecun.com/exdb/mnist/). Goal: 97%+ accuracy. Learn TensorBoard to monitor training.
+Train an MLP with PyTorch on the [MNIST dataset via `torchvision.datasets.MNIST`](https://pytorch.org/vision/stable/generated/torchvision.datasets.MNIST.html). Goal: 97%+ accuracy. Learn TensorBoard to monitor training.
 
 ---
 
