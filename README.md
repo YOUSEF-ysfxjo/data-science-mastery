@@ -102,6 +102,4 @@ MIT — use, modify, share. Just credit the source if you can.
 
 ---
 
-<sub>Made with ❤️ in Makkah</sub>
-<sub>Curator: [Yousef Ammar](https://github.com/YOUSEF-ysfxjo) — Data Scientist @ Qanoniah · AI Engineer @ Moasherat</sub>
 
