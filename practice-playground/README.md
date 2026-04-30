@@ -14,10 +14,10 @@ In the file [`typo.md`](typo.md) there are 3 spelling mistakes.
 A branch called `conflict-practice` will be created with a conflict against `main`. Merge it yourself.
 
 ### 3. Notebook with a Bug
-[`buggy-notebook.ipynb`](buggy-notebook.ipynb) — contains 5 errors (types: NameError, off-by-one, leakage, dtype mismatch, hardcoded path). Find them and fix them in a PR.
+`buggy-notebook.ipynb` — contains 5 errors (types: NameError, off-by-one, leakage, dtype mismatch, hardcoded path). Find them and fix them in a PR.
 
 ### 4. Messy Dataset
-[`messy-data.csv`](messy-data.csv) — contains null values, duplicates, encoding issues, and wrong dtypes. Clean it and write a notebook documenting the process.
+`messy-data.csv` — contains null values, duplicates, encoding issues, and wrong dtypes. Clean it and write a notebook documenting the process.
 
 ---
 

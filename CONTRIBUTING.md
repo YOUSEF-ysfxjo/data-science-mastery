@@ -22,8 +22,8 @@ Welcome! Adding a resource or fixing a mistake here is a real Git exercise. We e
 # 1. Fork the repo from the GitHub UI
 
 # 2. Clone your copy
-git clone https://github.com/<your-username>/data-science-mastery-ar.git
-cd data-science-mastery-ar
+git clone https://github.com/<your-username>/data-science-mastery.git
+cd data-science-mastery
 
 # 3. Create a new branch for your change
 git checkout -b add-resource-<short-name>

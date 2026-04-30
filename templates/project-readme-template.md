@@ -7,7 +7,7 @@
 > One-line elevator pitch — what does this project do and for whom.
 
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://python.org)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](../LICENSE)
 [![HF Model](https://img.shields.io/badge/🤗-Model-yellow)](https://huggingface.co/your-model)
 
 ---
@@ -36,7 +36,7 @@ How this project solves the problem. High-level architecture.
 | F1 | 0.74 | **0.86** |
 | Latency | 250ms | **80ms** |
 
-See [`reports/`](reports/) for the full report.
+See `reports/` for the full report.
 
 ---
 
@@ -108,7 +108,7 @@ project/
 
 ## 📜 License
 
-MIT — see [LICENSE](LICENSE).
+MIT — see [LICENSE](../LICENSE).
 
 ## 👤 Author
 

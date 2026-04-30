@@ -47,8 +47,8 @@ This guide is built on 3 principles:
 ```bash
 # 1. Fork the repo (this is your first Git exercise)
 # 2. Clone your copy
-git clone https://github.com/<your-username>/data-science-mastery-ar.git
-cd data-science-mastery-ar
+git clone https://github.com/<your-username>/data-science-mastery.git
+cd data-science-mastery
 
 # 3. Start from week 1
 cd curriculum/week-01-python-foundations
