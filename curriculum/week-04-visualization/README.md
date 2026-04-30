@@ -1,51 +1,47 @@
-<div dir="rtl">
+# Week 4 — Data Visualization
 
-# الأسبوع ٤ — تصور البيانات
-## Week 4 — Data Visualization
-
-> **القاعدة:** chart مفهوم في ٥ ثواني > chart "جميل" يحتاج شرح.
+> **The rule:** a chart understood in 5 seconds > a "beautiful" chart that needs explanation.
 
 ---
 
-## ماذا تتعلم
+## What You Learn
 
-- **Matplotlib** — الأساس. كل visualization في Python يبني عليه.
-- **Seaborn** — wrapper أجمل وأسهل لـ matplotlib، مناسب للـ EDA.
-- **Plotly** — للـ interactive charts (مناسب للـ dashboards).
-- **مبادئ التصميم:** اختيار الـ chart الصحيح، استخدام اللون بذكاء، تجنّب الـ chartjunk.
+- **Matplotlib** — the foundation. Every Python visualization is built on it.
+- **Seaborn** — a prettier, easier wrapper around matplotlib, ideal for EDA.
+- **Plotly** — for interactive charts (great for dashboards).
+- **Design principles:** choosing the right chart, using color intelligently, avoiding chartjunk.
 
 ---
 
-## أنواع Charts ومتى تستخدمها
+## Chart Types and When to Use Them
 
-| النوع | الاستخدام |
+| Type | Use Case |
 |---|---|
-| Histogram | توزيع متغير عددي واحد |
-| Box plot | مقارنة توزيعات بين مجموعات |
-| Scatter plot | علاقة بين متغيرين عدديين |
-| Bar chart | مقارنة فئات |
-| Line chart | بيانات زمنية |
-| Heatmap | matrix من العلاقات (correlation) |
-| Pair plot | كل العلاقات في dataset صغير |
+| Histogram | Distribution of a single numerical variable |
+| Box plot | Comparing distributions across groups |
+| Scatter plot | Relationship between two numerical variables |
+| Bar chart | Comparing categories |
+| Line chart | Time-series data |
+| Heatmap | Matrix of relationships (correlation) |
+| Pair plot | All pairwise relationships in a small dataset |
 
-❌ **لا تستخدم Pie chart.** نادراً ما يكون أحسن من bar chart.
-
----
-
-## المصادر
-
-- ⭐ **[Storytelling with Data — Cole Knaflic](https://www.storytellingwithdata.com/)** — أحسن كتاب في visualization. مو تقني، بس يغيّر طريقة تفكيرك.
-- **[Python Graph Gallery](https://www.python-graph-gallery.com/)** — كل chart بكود جاهز.
-- **[Seaborn official tutorial](https://seaborn.pydata.org/tutorial.html)** — خفيف ومفيد.
+❌ **Don't use Pie charts.** They are rarely better than a bar chart.
 
 ---
 
-## التحدي
+## Resources
 
-استخدم نفس dataset الـ Titanic. اعمل **EDA report كامل** بـ ١٠ charts، كل chart يجاوب سؤال محدد. ارفعه على GitHub Pages كـ HTML.
+- ⭐ **[Storytelling with Data — Cole Knaflic](https://www.storytellingwithdata.com/)** — the best visualization book. Not technical, but it changes how you think.
+- **[Python Graph Gallery](https://www.python-graph-gallery.com/)** — every chart type with ready-to-run code.
+- **[Seaborn official tutorial](https://seaborn.pydata.org/tutorial.html)** — lightweight and useful.
 
 ---
 
-[**← الأسبوع ٣**](../week-03-data-wrangling/) · [**الأسبوع ٥ →**](../week-05-supervised-ml/)
+## Challenge
 
-</div>
+Use the same Titanic dataset. Build a **full EDA report** with 10 charts, each answering a specific question. Push it to GitHub Pages as an HTML file.
+
+---
+
+[**← Week 3**](../week-03-data-wrangling/) · [**Week 5 →**](../week-05-supervised-ml/)
+

@@ -1,80 +1,77 @@
-<div dir="rtl">
+# 🤝 Contributing
 
-# 🤝 المساهمة — Contributing
+Welcome! Adding a resource or fixing a mistake here is a real Git exercise. We encourage you to contribute.
 
-أهلاً! إضافة مصدر أو تصحيح خطأ هنا = تمرين Git حقيقي. نشجّعك تساهم.
+## Ground Rules
 
-## القواعد الأساسية
+1. **Not every link gets in.** We only add resources that are:
+   - Free or offer value that outweighs their cost
+   - In Arabic or high-quality English
+   - Recent (last two years, unless they're classics like CS229)
+   - Tested by the curator or a trusted contributor
 
-1. **مو كل رابط يدخل.** نضيف بس المصادر اللي:
-   - مجانية أو فيها قيمة تفوق سعرها
-   - باللغة العربية أو الإنجليزية بجودة عالية
-   - حديثة (آخر سنتين، إلا إذا كانت كلاسيكية مثل CS229)
-   - مجرّبة من المُنسّق أو من مساهم موثوق
+2. **Your opinion matters.** Don't add a link without an explanation. Write at least two lines: why is this resource worth it? When should someone use it?
 
-2. **رأيك مطلوب.** لا تضف رابط بدون شرح. اكتب سطرين على الأقل: ليش هذا المصدر يستاهل؟ متى تستخدمه؟
-
-3. **الجودة قبل الكمية.** إضافة ٣ مصادر ممتازة > إضافة ٢٠ مصدر متوسطة.
+3. **Quality over quantity.** Adding 3 excellent resources > adding 20 average ones.
 
 ---
 
-## خطوات المساهمة (تمرين Git كامل)
+## Contribution Steps (a full Git exercise)
 
 ```bash
-# 1. اعمل Fork للمستودع من واجهة GitHub
+# 1. Fork the repo from the GitHub UI
 
-# 2. clone النسخة حقتك
+# 2. Clone your copy
 git clone https://github.com/<your-username>/data-science-mastery-ar.git
 cd data-science-mastery-ar
 
-# 3. اعمل branch جديد للتعديل
+# 3. Create a new branch for your change
 git checkout -b add-resource-<short-name>
 
-# 4. عدّل الملف المناسب (مثلاً awesome-list/free-courses.md)
+# 4. Edit the appropriate file (e.g. awesome-list/free-courses.md)
 
-# 5. commit بصيغة واضحة
+# 5. Commit with a clear message
 git add .
-git commit -m "add: <اسم المصدر> to free-courses"
+git commit -m "add: <resource name> to free-courses"
 
-# 6. push للـ fork
+# 6. Push to your fork
 git push origin add-resource-<short-name>
 
-# 7. افتح Pull Request من واجهة GitHub
+# 7. Open a Pull Request from the GitHub UI
 ```
 
 ---
 
-## صيغة إضافة مصدر
+## Resource Submission Format
 
 ```markdown
-### [اسم المصدر](https://example.com)
+### [Resource Name](https://example.com)
 
-- **النوع:** كورس / كتاب / مقال / مستودع / قناة يوتيوب
-- **اللغة:** عربي / إنجليزي / كلاهما
-- **المستوى:** مبتدئ / متوسط / متقدم
-- **متى تستخدمه:** (سطر واحد)
-- **ليش يستاهل:** (سطر إلى سطرين)
+- **Type:** Course / Book / Article / Repository / YouTube channel
+- **Language:** Arabic / English / Both
+- **Level:** Beginner / Intermediate / Advanced
+- **When to use:** (one line)
+- **Why it's worth it:** (one to two lines)
 ```
 
 ---
 
-## أنواع المساهمات المرحَّب فيها
+## Welcome Contribution Types
 
-✅ إضافة مصدر جديد بصيغة واضحة
-✅ تصحيح خطأ إملائي أو رابط مكسور
-✅ ترجمة درس من الإنجليزي للعربي (أو العكس)
-✅ إضافة تمرين أسبوعي
-✅ مشاركة قصة نجاح من مسارك (في `success-stories/`)
+✅ Add a new resource in the proper format
+✅ Fix a typo or broken link
+✅ Translate a lesson from English to Arabic (or vice versa)
+✅ Add a weekly exercise
+✅ Share a success story from your learning journey (in `success-stories/`)
 
-❌ إضافة قوائم طويلة بدون تنسيق أو شرح
-❌ روابط دورات مدفوعة بدون قيمة واضحة
-❌ محتوى ترويجي شخصي
+❌ Long lists without formatting or explanation
+❌ Paid course links without clear value
+❌ Personal promotional content
 
 ---
 
-## لو ما تعرف Git بعد
+## If you don't know Git yet
 
-ابدأ من [`curriculum/week-01-python-foundations/`](curriculum/week-01-python-foundations/) — أول أسبوع فيه شرح Git أساسي.
-بعدها ارجع هنا وطبّق العملية على إضافة حقيقية. **هذا أحسن تمرين.**
+Start from [`curriculum/week-01-python-foundations/`](curriculum/week-01-python-foundations/) — the first week includes a basic Git walkthrough.
+Then come back here and apply the process to a real contribution. **That's the best exercise.**
 
-</div>

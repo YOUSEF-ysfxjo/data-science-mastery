@@ -1,80 +1,77 @@
-<div dir="rtl">
+# 🎓 Free Courses
 
-# 🎓 الكورسات المجانية
-
-> ١٠ كورسات بس. لو خلصتها كلها، أنت أكثر من ٩٥٪ من المتعلمين الذاتيين.
+> 10 courses only. If you complete all of them, you're ahead of 95% of self-learners.
 
 ---
 
-## المرحلة ١ — الأساسيات
+## Phase 1 — Foundations
 
 ### ⭐⭐⭐ [Mathematics for ML and Data Science — DeepLearning.AI](https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science)
-- **النوع:** Specialization (٣ كورسات)
-- **اللغة:** إنجليزي + ترجمات عربية
-- **المدة:** ~٣ شهور
-- **ليش يستاهل:** Andrew Ng + Luis Serrano. أحسن شرح للرياضيات الموجَّهة لـ ML.
-- **متى تأخذه:** الأسبوع ٢ من المنهج.
+- **Type:** Specialization (3 courses)
+- **Language:** English + Arabic subtitles
+- **Duration:** ~3 months
+- **Why it's worth it:** Andrew Ng + Luis Serrano. The best ML-focused math explanation available.
+- **When to take it:** Week 2 of the curriculum.
 
 ### ⭐⭐ [Python for Everybody — University of Michigan](https://www.coursera.org/specializations/python)
-- **اللغة:** إنجليزي
-- **ليش يستاهل:** د. Chuck Severance يشرح Python بصبر للمبتدئين تماماً.
-- **متى تأخذه:** لو Python جديد عليك.
+- **Language:** English
+- **Why it's worth it:** Dr. Chuck Severance explains Python patiently for complete beginners.
+- **When to take it:** If Python is new to you.
 
 ---
 
-## المرحلة ٢ — Machine Learning
+## Phase 2 — Machine Learning
 
 ### ⭐⭐⭐ [Machine Learning Specialization — Andrew Ng (DeepLearning.AI)](https://www.coursera.org/specializations/machine-learning-introduction)
-- **النوع:** ٣ كورسات
-- **ليش يستاهل:** المعيار الذهبي للمقدمة لـ ML. مُحدّث ٢٠٢٢.
-- **متى تأخذه:** الأسبوع ٥–٨.
+- **Type:** 3 courses
+- **Why it's worth it:** The gold standard introduction to ML. Updated in 2022.
+- **When to take it:** Weeks 5–8.
 
-### ⭐⭐ [Kaggle Courses (مجاناً، قصيرة)](https://www.kaggle.com/learn)
+### ⭐⭐ [Kaggle Courses (free, short)](https://www.kaggle.com/learn)
 - Intro to ML, Intermediate ML, Feature Engineering, Data Cleaning
-- **ليش يستاهل:** كل كورس ٣–٥ ساعات، عملي ١٠٠٪.
-- **متى تأخذه:** أثناء الأسابيع ٥–٨ كتطبيق.
+- **Why it's worth it:** Each course is 3–5 hours and 100% hands-on.
+- **When to take it:** During Weeks 5–8 as applied practice.
 
 ---
 
-## المرحلة ٣ — Deep Learning
+## Phase 3 — Deep Learning
 
 ### ⭐⭐⭐ [Practical Deep Learning for Coders — fast.ai](https://course.fast.ai/)
-- **اللغة:** إنجليزي
-- **ليش يستاهل:** Top-down approach. تبني مشاريع من اليوم الأول.
-- **متى تأخذه:** الأسبوع ٩–١٠.
+- **Language:** English
+- **Why it's worth it:** Top-down approach. You build real projects from day one.
+- **When to take it:** Weeks 9–10.
 
 ### ⭐⭐⭐ [Neural Networks: Zero to Hero — Andrej Karpathy](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
-- **اللغة:** إنجليزي
-- **ليش يستاهل:** تبني GPT من الصفر. أحسن سلسلة DL في يوتيوب على الإطلاق.
-- **متى تأخذه:** بعد ما تخلص أساسيات NN.
+- **Language:** English
+- **Why it's worth it:** You build GPT from scratch. The best DL series on YouTube, period.
+- **When to take it:** After completing NN fundamentals.
 
 ### ⭐⭐ [Deep Learning Specialization — Andrew Ng](https://www.coursera.org/specializations/deep-learning)
-- **اللغة:** إنجليزي
-- **ليش يستاهل:** نظري أكثر من fast.ai، يكمّله.
+- **Language:** English
+- **Why it's worth it:** More theoretical than fast.ai — the two complement each other.
 
 ---
 
-## المرحلة ٤ — متقدم
+## Phase 4 — Advanced
 
 ### ⭐⭐⭐ [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course)
-- **مجاني، عملي، يستاهل ساعاتك.**
-- **متى تأخذه:** الأسبوع ١١.
+- **Free, practical, worth every hour.**
+- **When to take it:** Week 11.
 
 ### ⭐⭐ [CS229 — Machine Learning (Stanford)](https://cs229.stanford.edu/)
-- **النوع:** كورس جامعي كامل
-- **ليش يستاهل:** للي يبي يفهم الرياضيات وراء ML بعمق.
-- **متى تأخذه:** بعد المنهج، لو تتجه للبحث الأكاديمي.
+- **Type:** Full university course
+- **Why it's worth it:** For those who want to understand the math behind ML in depth.
+- **When to take it:** After the curriculum, if heading toward academic research.
 
 ### ⭐⭐ [KAUST Academy Courses](https://academy.kaust.edu.sa/)
-- **اللغة:** إنجليزي + بعضها مدعّم بالعربي
-- **ليش يستاهل:** لو سعودي، هذي فرصة ذهبية. شهادات معترفة + ربط مباشر بـ KAUST.
+- **Language:** English + some Arabic support
+- **Why it's worth it:** If you're in Saudi Arabia, this is a golden opportunity. Recognized certificates + direct KAUST connection.
 
 ---
 
-## كورسات لا تأخذها (نصيحة صريحة)
+## Courses to Avoid (honest advice)
 
-❌ **IBM Data Science Professional Certificate** — سطحي جداً، لا يبني مهارات قوية.
-❌ **Udemy "Complete Data Science Bootcamp"** — يكرر نفس المحتوى المجاني.
-❌ أي كورس يَعِد "تتعلم Data Science في ٣٠ يوم" — كذب.
+❌ **IBM Data Science Professional Certificate** — too shallow, doesn't build strong skills.
+❌ **Udemy "Complete Data Science Bootcamp"** — repeats the same free content.
+❌ Any course that promises "learn Data Science in 30 days" — it's not true.
 
-</div>

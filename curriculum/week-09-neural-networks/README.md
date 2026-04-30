@@ -1,15 +1,12 @@
-<div dir="rtl">
+# Week 9 — Neural Networks
 
-# الأسبوع ٩ — الشبكات العصبية
-## Week 9 — Neural Networks
-
-> **الانتقال الكبير:** من scikit-learn إلى PyTorch. مرحباً بك في deep learning.
+> **The big transition:** from scikit-learn to PyTorch. Welcome to deep learning.
 
 ---
 
-## ماذا تتعلم
+## What You Learn
 
-### المفاهيم
+### Concepts
 - Perceptron → Multi-Layer Perceptron (MLP)
 - Activation functions: ReLU, Sigmoid, Tanh, Softmax
 - Forward pass + Backpropagation
@@ -17,26 +14,26 @@
 - Optimizers: SGD, Adam
 - Batch size, epochs, learning rate
 
-### الكود
-- بناء NN بـ PyTorch من الصفر
+### Code
+- Building a neural network with PyTorch from scratch
 - Tensors, autograd, `nn.Module`
-- Training loop يدوي (مهم تفهمه)
+- Manual training loop (important to understand)
 - GPU usage (`.to(device)`)
 
 ---
 
-## ليش PyTorch مو TensorFlow؟
+## Why PyTorch and Not TensorFlow?
 
-- PyTorch صار المعيار الأكاديمي والصناعي (٢٠٢٠+).
-- API أبسط، debugging أسهل.
-- Hugging Face مبني عليه.
-- TensorFlow ما زال موجود لكن خصوصاً للـ production الكبير وKeras.
+- PyTorch has become the academic and industry standard (2020+).
+- Simpler API, easier debugging.
+- Hugging Face is built on it.
+- TensorFlow still exists, mainly for large-scale production and Keras.
 
-ابدأ بـ PyTorch. تعلّم TensorFlow لاحقاً لو احتجت.
+Start with PyTorch. Learn TensorFlow later if you need it.
 
 ---
 
-## Template أساسي للـ Training Loop
+## Basic Training Loop Template
 
 ```python
 import torch
@@ -59,21 +56,20 @@ for epoch in range(epochs):
 
 ---
 
-## المصادر
+## Resources
 
-- ⭐ **[PyTorch Official Tutorials](https://pytorch.org/tutorials/)** — ابدأ من "Learn the Basics"
-- ⭐ **[Andrej Karpathy — Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)** — أحسن سلسلة فيديوهات في DL، فترة.
-- **[Deep Learning Book — Goodfellow (Chapters 6, 7, 8)](https://www.deeplearningbook.org/)** — مرجع نظري.
-- **[3Blue1Brown — Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)** — intuition بصري.
-
----
-
-## التحدي
-
-دربّ MLP بـ PyTorch على [MNIST dataset](http://yann.lecun.com/exdb/mnist/). الهدف: ٩٧٪+ accuracy. تعلّم Tensorboard لمتابعة التدريب.
+- ⭐ **[PyTorch Official Tutorials](https://pytorch.org/tutorials/)** — start from "Learn the Basics"
+- ⭐ **[Andrej Karpathy — Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)** — the best DL video series, period.
+- **[Deep Learning Book — Goodfellow (Chapters 6, 7, 8)](https://www.deeplearningbook.org/)** — theoretical reference.
+- **[3Blue1Brown — Neural Networks](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)** — visual intuition.
 
 ---
 
-[**← الأسبوع ٨**](../week-08-unsupervised/) · [**الأسبوع ١٠ →**](../week-10-computer-vision/)
+## Challenge
 
-</div>
+Train an MLP with PyTorch on the [MNIST dataset](http://yann.lecun.com/exdb/mnist/). Goal: 97%+ accuracy. Learn TensorBoard to monitor training.
+
+---
+
+[**← Week 8**](../week-08-unsupervised/) · [**Week 10 →**](../week-10-computer-vision/)
+

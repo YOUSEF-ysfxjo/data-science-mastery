@@ -1,12 +1,10 @@
-# [Project Name] — اسم المشروع
+# [Project Name]
 
 <p align="center">
   <img src="docs/banner.png" alt="banner" width="600"/>
 </p>
 
 > One-line elevator pitch — what does this project do and for whom.
->
-> جملة واحدة تشرح المشروع لو ما عند القارئ خلفية.
 
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -18,15 +16,11 @@
 
 What real-world problem does this solve? Who has this problem? Why does it matter?
 
-ما المشكلة الحقيقية اللي يحلها هذا المشروع؟ مين عنده هذي المشكلة؟ ليش مهمة؟
-
 ---
 
 ## ✨ The Solution
 
 How this project solves the problem. High-level architecture.
-
-كيف هذا المشروع يحل المشكلة. النظرة العامة على البنية.
 
 ```
 [ Data Source ] → [ Preprocessing ] → [ Model ] → [ API ] → [ User ]
@@ -42,7 +36,7 @@ How this project solves the problem. High-level architecture.
 | F1 | 0.74 | **0.86** |
 | Latency | 250ms | **80ms** |
 
-شوف [`reports/`](reports/) للتقرير الكامل.
+See [`reports/`](reports/) for the full report.
 
 ---
 
@@ -61,12 +55,12 @@ pip install -r requirements.txt
 python src/main.py
 ```
 
-### استخدام API
+### Using the API
 
 ```bash
 curl -X POST http://localhost:8000/predict \
   -H "Content-Type: application/json" \
-  -d '{"text": "النص هنا"}'
+  -d '{"text": "your text here"}'
 ```
 
 ---
@@ -119,3 +113,4 @@ MIT — see [LICENSE](LICENSE).
 ## 👤 Author
 
 **Your Name** — [GitHub](https://github.com/you) · [LinkedIn](https://linkedin.com/in/you)
+

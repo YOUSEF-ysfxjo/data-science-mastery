@@ -1,48 +1,46 @@
-<div dir="rtl">
-
 # 👁️ Track: Computer Vision
 
 ---
 
-## المنهج (٨ أسابيع)
+## Curriculum (8 weeks)
 
-### الأسبوع ١–٢: CNNs بعمق
+### Week 1–2: Deep CNNs
 - Architectures: ResNet, EfficientNet, ConvNeXt
-- Transfer Learning advanced
+- Advanced Transfer Learning
 - Data Augmentation (albumentations)
 
-### الأسبوع ٣: Object Detection
+### Week 3: Object Detection
 - YOLO family (v8, v10, v11)
 - Faster R-CNN
 - DETR (transformer-based)
 
-### الأسبوع ٤: Segmentation
+### Week 4: Segmentation
 - U-Net (medical imaging classic)
 - Mask R-CNN
 - SAM (Segment Anything)
 
-### الأسبوع ٥: Vision Transformers
+### Week 5: Vision Transformers
 - ViT
 - Swin Transformer
 - DINO + DINOv2
 
-### الأسبوع ٦: Multimodal
+### Week 6: Multimodal
 - CLIP (text + image)
 - BLIP (image captioning)
 - LLaVA (vision LLM)
 
-### الأسبوع ٧: Face Recognition
+### Week 7: Face Recognition
 - InsightFace (buffalo_l)
 - FaceNet
 - Embeddings + FAISS
 
-### الأسبوع ٨: مشروع
+### Week 8: Project
 
 ---
 
-## مصادر
+## Resources
 
-- ⭐ [CS231n (Stanford)](http://cs231n.stanford.edu/) — المعيار العالمي
+- ⭐ [CS231n (Stanford)](http://cs231n.stanford.edu/) — the world standard
 - ⭐ [Practical Deep Learning for Coders — fast.ai](https://course.fast.ai/)
 - [timm library (700+ pretrained models)](https://github.com/huggingface/pytorch-image-models)
 - [albumentations](https://albumentations.ai/)
@@ -50,11 +48,10 @@
 
 ---
 
-## أفكار مشاريع
+## Project Ideas
 
-- نظام تعرّف على الوجوه للأسر (privacy-preserving)
-- كشف العيوب في خط إنتاج
-- تحليل صور الأقمار الصناعية للتنمية الحضرية
-- OCR للوثائق العربية القديمة
+- A family face recognition system (privacy-preserving)
+- Defect detection on a production line
+- Satellite image analysis for urban development
+- OCR for old Arabic documents
 
-</div>

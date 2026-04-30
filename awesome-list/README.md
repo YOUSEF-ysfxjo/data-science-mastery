@@ -1,31 +1,28 @@
-<div dir="rtl">
+# 📚 Curated Resources
 
-# 📚 المصادر المختارة — Curated Resources
+> **The rule:** every resource listed here has been tested or is recommended by an active practitioner. Not a dump.
 
-> **القاعدة:** كل مصدر هنا جُرّب أو يُنصح به من ممارس فعلي. مو dump.
-
-كل قسم فيه مصادر **محدودة العدد** — لأن الاختيار = القيمة.
+Every section has a **limited number** of resources — because curation is the value.
 
 ---
 
-## محتويات
+## Contents
 
-- [الكورسات المجانية](free-courses.md) — كل كورس بشرح ليش يستاهل
-- [الكتب الأساسية](books.md) — ٧ كتب تكفيك من البداية للاحتراف
-- [قنوات يوتيوب — إنجليزي](youtube-en.md)
-- [قنوات يوتيوب — عربي](youtube-ar.md)
-- [منصات الممارسة](practice-platforms.md) — Kaggle, LeetCode, etc.
-- [Datasets للممارسة](datasets.md) — مع تصنيف بحسب الصعوبة والمجال
-- [Newsletters للمتابعة](newsletters.md)
+- [Free Courses](free-courses.md) — every course explained and justified
+- [Essential Books](books.md) — 7 books to take you from beginner to professional
+- [YouTube Channels — English](youtube-en.md)
+- [YouTube Channels — Arabic](youtube-ar.md)
+- [Practice Platforms](practice-platforms.md) — Kaggle, LeetCode, etc.
+- [Datasets for Practice](datasets.md) — sorted by difficulty and domain
+- [Newsletters to Follow](newsletters.md)
 - [Podcasts](podcasts.md)
 - [Communities](communities.md) — Discord, Slack, Twitter
 
 ---
 
-## ليش لا نضيف كل شيء؟
+## Why Not Add Everything?
 
-شفنا قوائم فيها ٥٠٠+ رابط. أحد فعلاً يقرأها؟ **لا.**
+We've seen lists with 500+ links. Does anyone actually read them? **No.**
 
-نحن نختار، ونشرح، ونرتب. لو تبي قائمة ضخمة، استخدم [awesome-datascience](https://github.com/academic/awesome-datascience).
+We select, explain, and organize. If you want a massive list, use [awesome-datascience](https://github.com/academic/awesome-datascience).
 
-</div>

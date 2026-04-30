@@ -1,38 +1,35 @@
-<div dir="rtl">
+# Week 5 — Supervised Machine Learning
 
-# الأسبوع ٥ — التعلم الموجَّه (Supervised ML)
-## Week 5 — Supervised Machine Learning
-
-> **هدفك هذا الأسبوع:** تفهم الفرق بين Regression و Classification، وتدرّب أول نموذج لك.
+> **This week's goal:** Understand the difference between Regression and Classification, and train your first model.
 
 ---
 
-## المفاهيم الأساسية
+## Core Concepts
 
-- **Supervised Learning:** عندك `X` (features) و `y` (target). تتعلم الدالة `f(X) → y`.
-- **Regression:** `y` رقم متصل (مثل سعر بيت).
-- **Classification:** `y` فئة (مثل نجا/ما نجا، spam/not spam).
-- **Train/Test Split:** ٨٠/٢٠ عادة. ولا تنس `random_state` للتكرار.
+- **Supervised Learning:** you have `X` (features) and `y` (target). You learn the function `f(X) → y`.
+- **Regression:** `y` is a continuous number (e.g., house price).
+- **Classification:** `y` is a category (e.g., survived/didn't survive, spam/not spam).
+- **Train/Test Split:** 80/20 is typical. Don't forget `random_state` for reproducibility.
 
 ---
 
-## الخوارزميات اللي تتعلمها هذا الأسبوع
+## Algorithms You Learn This Week
 
 ### Regression
-- **Linear Regression** — الأساس. افهمه بعمق.
-- **Ridge & Lasso** — Linear Regression مع regularization.
+- **Linear Regression** — the foundation. Understand it deeply.
+- **Ridge & Lasso** — Linear Regression with regularization.
 
 ### Classification
-- **Logistic Regression** — classification لكن اسمه regression (موروث).
-- **Decision Trees** — سهل التفسير.
-- **Random Forest** — مجموعة decision trees. أحسن baseline في أكثر المسائل.
-- **K-Nearest Neighbors (KNN)** — الأبسط. تعلّمه عشان تفهم limitations.
+- **Logistic Regression** — classification despite the name (historical).
+- **Decision Trees** — easy to interpret.
+- **Random Forest** — an ensemble of decision trees. Best baseline for most problems.
+- **K-Nearest Neighbors (KNN)** — the simplest. Learn it to understand its limitations.
 
-> **ملاحظة:** XGBoost / LightGBM موّجلين للأسبوع ٧.
+> **Note:** XGBoost / LightGBM are deferred to Week 7.
 
 ---
 
-## الكود الأساسي (احفظه)
+## Core Code (memorize this)
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -52,20 +49,19 @@ print(accuracy_score(y_test, preds))
 
 ---
 
-## المصادر
+## Resources
 
-- ⭐ **[Scikit-learn User Guide](https://scikit-learn.org/stable/user_guide.html)** — مرجعك للأبد. اقرأ Sections 1.1, 1.4, 1.10, 1.11.
-- ⭐ **[StatQuest — Josh Starmer](https://www.youtube.com/@statquest)** — أحسن قناة لشرح ML بـ intuition.
-- **[Hands-On ML with Scikit-Learn — Aurélien Géron (Book)](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)** — ⭐⭐⭐ الكتاب اللي ينصح فيه الجميع. اقرأ Chapters 1–4.
-
----
-
-## التحدي
-
-اشتغل على [Kaggle Titanic Competition](https://www.kaggle.com/c/titanic). جرّب ٣ نماذج وقارن. ارفع نتيجتك واحصل على ranking.
+- ⭐ **[Scikit-learn User Guide](https://scikit-learn.org/stable/user_guide.html)** — your reference forever. Read Sections 1.1, 1.4, 1.10, 1.11.
+- ⭐ **[StatQuest — Josh Starmer](https://www.youtube.com/@statquest)** — the best channel for ML with intuition.
+- **[Hands-On ML with Scikit-Learn — Aurélien Géron (Book)](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/)** — ⭐⭐⭐ the book everyone recommends. Read Chapters 1–4.
 
 ---
 
-[**← الأسبوع ٤**](../week-04-visualization/) · [**الأسبوع ٦ →**](../week-06-model-evaluation/)
+## Challenge
 
-</div>
+Work on the [Kaggle Titanic Competition](https://www.kaggle.com/c/titanic). Try 3 different models and compare them. Submit your score and get a ranking.
+
+---
+
+[**← Week 4**](../week-04-visualization/) · [**Week 6 →**](../week-06-model-evaluation/)
+

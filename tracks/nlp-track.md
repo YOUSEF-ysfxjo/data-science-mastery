@@ -1,50 +1,48 @@
-<div dir="rtl">
-
 # 🗣️ Track: Arabic NLP
 
-> **ميزتك التنافسية الأكبر إذا كنت عربياً.** السوق السعودي/الخليجي يدفع أكثر للي يفهم العربي تقنياً.
+> **Your biggest competitive advantage if you're Arab.** The Saudi/Gulf market pays more for those who understand Arabic technically.
 
 ---
 
-## المنهج (٨ أسابيع)
+## Curriculum (8 weeks)
 
-### الأسبوع ١–٢: NLP الكلاسيكي
-- Tokenization للعربي (المشاكل الخاصة: التشكيل، الاتصال بـ ال)
-- مكتبات: NLTK, spaCy, CamelTools (متخصصة بالعربي)
+### Week 1–2: Classical NLP
+- Tokenization for Arabic (unique challenges: diacritics, definite article attachment)
+- Libraries: NLTK, spaCy, CamelTools (specialized for Arabic)
 - TF-IDF, BM25
-- Sentiment analysis classical (Naive Bayes)
+- Classical sentiment analysis (Naive Bayes)
 
-### الأسبوع ٣–٤: Word Embeddings
-- Word2Vec على نص عربي
+### Week 3–4: Word Embeddings
+- Word2Vec on Arabic text
 - AraVec, Mazajak
-- FastText للعربي (subword يساعد كثير في العربي)
+- FastText for Arabic (subword helps a lot with Arabic morphology)
 
-### الأسبوع ٥–٦: Transformers للعربي
+### Week 5–6: Transformers for Arabic
 - AraBERT, MARBERT, CAMeLBERT, ARBERT
-- Fine-tuning على مهام عربية
-- Hugging Face Datasets العربية
+- Fine-tuning on Arabic tasks
+- Arabic Hugging Face Datasets
 
-### الأسبوع ٧: LLMs العربية
+### Week 7: Arabic LLMs
 - AceGPT, Allam (SDAIA), Jais
-- Prompt engineering بالعربي
-- التعامل مع لهجات
+- Prompt engineering in Arabic
+- Handling dialects
 
-### الأسبوع ٨: مشروع
-ابنِ نظام NLP عربي كامل + API + deploy.
+### Week 8: Project
+Build a complete Arabic NLP system + API + deploy.
 
 ---
 
-## مصادر متخصصة
+## Specialized Resources
 
-- ⭐ [CamelTools](https://camel-tools.readthedocs.io/) — أدوات NLP عربية من NYU Abu Dhabi
-- [AraBench](https://arabench.qcri.org/) — benchmark للنماذج العربية
+- ⭐ [CamelTools](https://camel-tools.readthedocs.io/) — Arabic NLP tools from NYU Abu Dhabi
+- [AraBench](https://arabench.qcri.org/) — benchmark for Arabic models
 - [Hugging Face — Arabic NLP](https://huggingface.co/collections/arabic)
-- [GLARE Dataset (٧٠ مليون مراجعة عربية)](https://github.com/iwan-rg/GLARE)
+- [GLARE Dataset (70 million Arabic reviews)](https://github.com/iwan-rg/GLARE)
 - [SDAIA Allam Models](https://huggingface.co/sdaia)
 
 ---
 
-## papers لازم تقرأها
+## Papers You Must Read
 
 1. [AraBERT (Antoun et al. 2020)](https://arxiv.org/abs/2003.00104)
 2. [MARBERT + ARBERT (Abdul-Mageed et al. 2021)](https://aclanthology.org/2021.acl-long.551/)
@@ -53,13 +51,12 @@
 
 ---
 
-## فرص الشغل في السعودية
+## Job Opportunities in Saudi Arabia
 
-- SDAIA (الهيئة)
+- SDAIA (the Authority)
 - Centrik
 - Mozn
 - KAUST research labs
 - Qanoniah, Moasherat (legal/operations)
 - Tabby (financial NLP)
 
-</div>

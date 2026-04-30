@@ -1,33 +1,30 @@
-<div dir="rtl">
-
-# 🏆 منصات الممارسة
+# 🏆 Practice Platforms
 
 ---
 
 ## ⭐⭐⭐ [Kaggle](https://www.kaggle.com/)
-- **المنصة الأهم.** Datasets + Competitions + Notebooks + Courses.
-- ابدأ من Titanic + House Prices.
-- اعمل profile قوي — recruiters يشوفونه.
+- **The most important platform.** Datasets + Competitions + Notebooks + Courses.
+- Start with Titanic + House Prices.
+- Build a strong profile — recruiters look at it.
 
 ## ⭐⭐⭐ [Hugging Face](https://huggingface.co/)
-- للـ NLP + Models hosting.
-- ارفع نماذجك هنا — يدخل portfolio تلقائياً.
+- For NLP + model hosting.
+- Upload your models here — it automatically becomes part of your portfolio.
 
 ## ⭐⭐ [DrivenData](https://www.drivendata.org/)
-- مسابقات data science لقضايا اجتماعية.
-- جودة عالية، competition أقل (فرصة أحسن للترتيب).
+- Data science competitions for social good.
+- High quality, fewer competitors (better chance of ranking well).
 
 ## ⭐⭐ [Zindi](https://zindi.africa/)
-- مسابقات تركّز على القارة الإفريقية والمنطقة.
-- مشاكل أقرب لواقعنا.
+- Competitions focused on Africa and the region.
+- Problems closer to our reality.
 
 ## ⭐⭐ [LeetCode (SQL & Python)](https://leetcode.com/)
-- لتحضير المقابلات. **خصوصاً SQL.**
+- For interview prep. **Especially SQL.**
 
 ## ⭐ [HackerRank — SQL & Statistics](https://www.hackerrank.com/domains/sql)
-- تحديات أساسية، مفيد للمبتدئين.
+- Basic challenges, useful for beginners.
 
 ## ⭐ [Stratascratch](https://www.stratascratch.com/)
-- أسئلة DS تطبيقية من شركات حقيقية.
+- Applied DS questions from real companies.
 
-</div>

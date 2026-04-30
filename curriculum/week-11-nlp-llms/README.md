@@ -1,41 +1,38 @@
-<div dir="rtl">
+# Week 11 — Natural Language Processing + LLMs
 
-# الأسبوع ١١ — معالجة اللغة الطبيعية + LLMs
-## Week 11 — NLP + Large Language Models
-
-> **هذا الأسبوع الأكثر طلباً في السوق ٢٠٢٦. خذه بجدّية.**
+> **This is the most in-demand week in the market in 2026. Take it seriously.**
 
 ---
 
-## ماذا تتعلم
+## What You Learn
 
-### NLP الكلاسيكي (سريع — يومين)
+### Classical NLP (fast — two days)
 - Tokenization, Stemming, Lemmatization
-- TF-IDF و Bag of Words
+- TF-IDF and Bag of Words
 - Word Embeddings: Word2Vec, GloVe, FastText
 
-### العصر الحديث (جل الأسبوع)
-- **Transformers Architecture** — اقرأ "Attention is All You Need"
-- **BERT** — encoder-only، ممتاز للـ classification
-- **GPT family** — decoder-only، للـ generation
-- **Hugging Face Transformers library** — أداتك الأساسية
+### The Modern Era (most of the week)
+- **Transformers Architecture** — read "Attention is All You Need"
+- **BERT** — encoder-only, excellent for classification
+- **GPT family** — decoder-only, for generation
+- **Hugging Face Transformers library** — your primary tool
 
-### العربي خصوصاً
-- **MARBERT** — أحسن نموذج عربي عام
-- **AraBERT** — قديم لكنه قوي
+### Arabic-Specific
+- **MARBERT** — best general-purpose Arabic model
+- **AraBERT** — older but powerful
 - **AceGPT** — Arabic LLM
 - **Allam** — Saudi LLM (SDAIA)
 
-### LLMs و RAG
+### LLMs and RAG
 - Prompt engineering
 - Function calling
 - Embeddings + Vector Databases (Qdrant, Pinecone)
 - RAG (Retrieval Augmented Generation)
-- Frameworks: LangChain, LlamaIndex (للسياق فقط، الانطلاقة من الكود الخام أهم)
+- Frameworks: LangChain, LlamaIndex (for context only — raw code is more important)
 
 ---
 
-## كود أساسي بـ Hugging Face
+## Basic Hugging Face Code
 
 ```python
 from transformers import pipeline
@@ -61,28 +58,27 @@ with torch.no_grad():
 
 ---
 
-## المصادر
+## Resources
 
-- ⭐ **[Hugging Face NLP Course](https://huggingface.co/learn/nlp-course)** — مجاني، ممتاز، عملي
-- ⭐ **[The Illustrated Transformer — Jay Alammar](http://jalammar.github.io/illustrated-transformer/)** — أفضل شرح بصري
-- ⭐ **[Andrej Karpathy — Let's build GPT from scratch](https://www.youtube.com/watch?v=kCc8FmEb1nY)** — تبني GPT بإيدك
-- [Speech and Language Processing — Jurafsky & Martin (مجاني)](https://web.stanford.edu/~jurafsky/slp3/)
+- ⭐ **[Hugging Face NLP Course](https://huggingface.co/learn/nlp-course)** — free, excellent, practical
+- ⭐ **[The Illustrated Transformer — Jay Alammar](http://jalammar.github.io/illustrated-transformer/)** — the best visual explanation
+- ⭐ **[Andrej Karpathy — Let's build GPT from scratch](https://www.youtube.com/watch?v=kCc8FmEb1nY)** — you build GPT yourself
+- [Speech and Language Processing — Jurafsky & Martin (free)](https://web.stanford.edu/~jurafsky/slp3/)
 - [SimCSE Paper](https://arxiv.org/abs/2104.08821) — sentence embeddings
 
 ---
 
-## التحدي
+## Challenge
 
-اختر مهمة عربية: تحليل مشاعر، تصنيف نية، أو NER.
-١. اختر dataset من Hugging Face Datasets
-٢. fine-tune MARBERT
-٣. ارفع النموذج على Hugging Face Hub بـ Model Card كامل
-٤. اكتب blog post على LinkedIn يشرح المشروع
+Choose an Arabic task: sentiment analysis, intent classification, or NER.
+1. Choose a dataset from Hugging Face Datasets
+2. Fine-tune MARBERT
+3. Upload the model to Hugging Face Hub with a complete Model Card
+4. Write a blog post on LinkedIn explaining the project
 
-> **هذا أهم تحدي في المنهج كله — يدخل portfolio حقك مباشرة.**
+> **This is the most important challenge in the entire curriculum — it goes directly into your portfolio.**
 
 ---
 
-[**← الأسبوع ١٠**](../week-10-computer-vision/) · [**الأسبوع ١٢ →**](../week-12-capstone/)
+[**← Week 10**](../week-10-computer-vision/) · [**Week 12 →**](../week-12-capstone/)
 
-</div>

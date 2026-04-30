@@ -1,41 +1,38 @@
-<div dir="rtl">
+# 🛣️ Specialization Tracks After the Curriculum
 
-# 🛣️ التخصصات بعد المنهج
-
-> بعد الأسبوع ١٢، الجميع يكتسب نفس الأساس. لكن من هنا، تختار طريقك.
+> After Week 12, everyone has the same foundation. From here, you choose your path.
 
 ---
 
-## التخصصات المتاحة
+## Available Tracks
 
-| Track | المدة | الطلب في السوق | المناسب لـ |
+| Track | Duration | Market Demand | Best Fit For |
 |---|---|---|---|
-| [Arabic NLP](nlp-track.md) | ٢–٣ شهور | عالٍ في السعودية | اللي يحب اللغة |
-| [Computer Vision](cv-track.md) | ٢–٣ شهور | متوسط | اللي يحب الصور والفيديو |
-| [MLOps](mlops-track.md) | ٢–٣ شهور | عالٍ جداً | اللي يحب الأنظمة |
-| [Research / Academic](research-track.md) | ٦+ شهور | محدود لكن مرموق | اللي يفكر في KAUST/MSc |
-| [LLMs & Agents](llm-track.md) | ٢ شهور | الأعلى ٢٠٢٦ | الجميع تقريباً |
-| [Data Engineering](de-track.md) | ٣–٤ شهور | عالٍ ومستقر | اللي يحب SQL والـ pipelines |
+| [Arabic NLP](nlp-track.md) | 2–3 months | High in Saudi Arabia | Those who love language |
+| [Computer Vision](cv-track.md) | 2–3 months | Moderate | Those who love images and video |
+| [MLOps](mlops-track.md) | 2–3 months | Very high | Those who love systems |
+| [Research / Academic](research-track.md) | 6+ months | Limited but prestigious | Those considering KAUST/MSc |
+| [LLMs & Agents](llm-track.md) | 2 months | Highest in 2026 | Almost everyone |
+| [Data Engineering](de-track.md) | 3–4 months | High and stable | Those who love SQL and pipelines |
 
 ---
 
-## كيف تختار؟
+## How to Choose?
 
-اسأل نفسك:
+Ask yourself:
 
-١. **وش يستمتع بيه فعلاً؟** (مو وش يعطيك أعلى راتب)
-٢. **وش متوفر في بيئتك؟** (شركات سعودية، فرص تدريب)
-٣. **وش أنت قوي فيه أصلاً؟** (لغة، رياضيات، systems)
+1. **What do I genuinely enjoy?** (Not what pays the most)
+2. **What's available in my environment?** (Saudi companies, internship opportunities)
+3. **What am I already strong at?** (Language, math, systems)
 
-> **نصيحة:** لا تختار MLOps لو تكره infrastructure work. لا تختار Research لو تستعجل النتائج.
+> **Tip:** Don't choose MLOps if you hate infrastructure work. Don't choose Research if you want fast results.
 
 ---
 
-## ملاحظة من المُنسّق
+## A Note from the Curator
 
-أكثر الناس يحاولون يكونون "T-shaped": عرض أساسي + عمق في تخصص واحد.
-المنهج (الأسابيع ١-١٢) = العرض. هذا المجلد = العمق.
+Most people try to be "T-shaped": broad foundation + depth in one specialization.
+The curriculum (Weeks 1–12) = the breadth. This folder = the depth.
 
-ابدأ بـ track واحد فقط. لا تشتت نفسك.
+Start with one track only. Don't spread yourself thin.
 
-</div>

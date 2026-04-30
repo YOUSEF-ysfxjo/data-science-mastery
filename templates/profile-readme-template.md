@@ -1,6 +1,6 @@
 # Hi, I'm [Your Name] 👋
 
-> Data Scientist في طريقي · Saudi · Bilingual AR/EN
+> Data Scientist in progress · Saudi · Bilingual AR/EN
 
 ---
 
@@ -29,6 +29,7 @@
 
 ---
 
-> "أنا مهتم بـ [topic] لأنه [reason that's specific and personal]."
+> "I'm interested in [topic] because [reason that's specific and personal]."
 
-<sub>Made in [city] · بُني في [مدينتك]</sub>
+<sub>Made in [city]</sub>
+

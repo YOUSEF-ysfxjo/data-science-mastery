@@ -1,15 +1,12 @@
-<div dir="rtl">
+# 🏭 Real-World Data Science
 
-# 🏭 علم البيانات في العالم الحقيقي
-## Real-World Data Science
-
-> الكتب تعلّمك النظرية. هذي قصص وممارسات من شركات حقيقية.
+> Books teach you theory. These are stories and practices from real companies.
 
 ---
 
-## مدوّنات engineering تستحق المتابعة
+## Engineering Blogs Worth Following
 
-| الشركة | المدوّنة | المحتوى |
+| Company | Blog | Content |
 |---|---|---|
 | Stripe | [stripe.com/blog/engineering](https://stripe.com/blog/engineering) | Fraud detection, scaling ML |
 | Airbnb | [Airbnb Engineering](https://medium.com/airbnb-engineering) | Personalization, search |
@@ -23,25 +20,25 @@
 
 ---
 
-## ⭐ مرجع ذهبي
+## ⭐ Golden Reference
 
-**[Applied ML — Eugene Yan](https://github.com/eugeneyan/applied-ml)** — أفضل مستودع لقصص ML production. مرتب حسب المشكلة (search ranking, fraud, recsys).
-
----
-
-## دروس متكررة من الصناعة
-
-١. **Simple beats fancy.** Logistic regression في production أكثر من XGBoost.
-٢. **Data > Model.** تحسين البيانات > تغيير النموذج.
-٣. **A/B testing لازم.** offline metrics ≠ online.
-٤. **Latency يقتل.** 99% accuracy في 10s = useless.
-٥. **Monitoring أهم من training.** Models drift.
+**[Applied ML — Eugene Yan](https://github.com/eugeneyan/applied-ml)** — the best repository for ML production stories. Organized by problem type (search ranking, fraud, recsys).
 
 ---
 
-## السوق السعودي
+## Recurring Lessons from Industry
 
-### شركات تستخدم ML بشكل جدي
+1. **Simple beats fancy.** Logistic regression in production more often than XGBoost.
+2. **Data > Model.** Improving data beats changing the model.
+3. **A/B testing is essential.** Offline metrics ≠ online metrics.
+4. **Latency kills.** 99% accuracy in 10s = useless.
+5. **Monitoring matters more than training.** Models drift.
+
+---
+
+## The Saudi Market
+
+### Companies Using ML Seriously
 - **STC TV / Shahid** — recommendations
 - **Tabby / Tamara** — credit scoring + fraud
 - **Foodics** — restaurant analytics
@@ -51,14 +48,14 @@
 - **Qanoniah** — legal AI
 - **Moasherat** — operations analytics
 
-### مصادر محلية
+### Local Resources
 - [SDAIA Blog](https://sdaia.gov.sa/)
 - [KAUST AI Initiative](https://cemse.kaust.edu.sa/ai)
 - [Hugging Face — Arabic Collection](https://huggingface.co/collections/arabic)
 
 ---
 
-## case studies للقراءة
+## Case Studies to Read
 
 - [Spotify Discover Weekly explained](https://engineering.atspotify.com/)
 - [Pinterest's PinSage (graph-based recsys)](https://medium.com/pinterest-engineering)
@@ -66,4 +63,3 @@
 - [Uber Michelangelo (ML platform)](https://www.uber.com/blog/michelangelo-machine-learning-platform/)
 - [Why we don't use LangChain at scale](https://www.octomind.dev/blog/why-we-no-longer-use-langchain-for-building-our-ai-agents)
 
-</div>

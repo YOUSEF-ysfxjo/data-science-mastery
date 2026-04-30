@@ -1,28 +1,25 @@
-<div dir="rtl">
-
-# 📨 Newsletters للمتابعة
+# 📨 Newsletters to Follow
 
 ---
 
 ## ⭐⭐⭐ [The Batch — DeepLearning.AI](https://www.deeplearning.ai/the-batch/)
-- Andrew Ng. أسبوعي. مختصر وعميق.
+- Andrew Ng. Weekly. Concise and insightful.
 
 ## ⭐⭐⭐ [Import AI — Jack Clark](https://importai.substack.com/)
-- أسبوعي. تحليل سياسي/تقني للـ AI.
+- Weekly. Political and technical analysis of AI.
 
 ## ⭐⭐ [The Sequence](https://thesequence.substack.com/)
-- ٣ مرات/أسبوع. تحليلات معمّقة لـ ML systems.
+- 3 times/week. In-depth analysis of ML systems.
 
 ## ⭐⭐ [Towards Data Science](https://towardsdatascience.com/)
-- على Medium. مقالات يومية بجودة متفاوتة، بس فيه ذهب.
+- On Medium. Daily articles of varying quality, but there's gold in there.
 
 ## ⭐⭐ [Eugene Yan](https://eugeneyan.com/)
-- مدوّن من Amazon. مقالات Applied ML ممتازة.
+- A blogger from Amazon. Excellent Applied ML articles.
 
 ## ⭐ [Chip Huyen's blog](https://huyenchip.com/)
-- ML systems & MLOps من إحدى أهم الكاتبات في المجال.
+- ML systems & MLOps from one of the most important writers in the field.
 
 ## ⭐ [Simon Willison's Weblog](https://simonwillison.net/)
-- تطبيقات LLMs اليومية، prompts، tools.
+- Everyday LLM applications, prompts, tools.
 
-</div>

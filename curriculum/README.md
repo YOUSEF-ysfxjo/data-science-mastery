@@ -1,72 +1,69 @@
-<div dir="rtl">
+# 🎓 The Curriculum
 
-# 🎓 المنهج — The Curriculum
-
-١٢ أسبوع. ١٠–١٥ ساعة في الأسبوع. من الصفر إلى مشروع portfolio حقيقي.
+12 weeks. 10–15 hours per week. From zero to a real portfolio project.
 
 ---
 
-## الفلسفة
+## The Philosophy
 
-**مشكلة → حل → مشكلة جديدة → حل.**
-كل أسبوع يبني على اللي قبله. ما نقفز للـ Deep Learning قبل ما نفهم Pandas. ما نشرح Linear Regression قبل ما نضمن إنك مرتاح مع NumPy.
+**Problem → solution → new problem → solution.**
+Each week builds on the previous one. We don't jump to Deep Learning before understanding Pandas. We don't explain Linear Regression before making sure you're comfortable with NumPy.
 
 ---
 
-## المراحل الأربع
+## The Four Phases
 
-### المرحلة ١ — الأساسيات (أسابيع ١–٤)
-تبني فيها الأدوات: Python, الرياضيات اللي تحتاجها فعلاً (مو كل حاجة)، Pandas، والـ visualization.
-**المخرج:** تقدر تفتح أي dataset، تنظفه، تحلله، تطلع منه insights.
+### Phase 1 — Foundations (Weeks 1–4)
+Build your tools: Python, the math you actually need (not everything), Pandas, and visualization.
+**Outcome:** You can open any dataset, clean it, analyze it, and extract insights.
 
-### المرحلة ٢ — التعلم الآلي الكلاسيكي (أسابيع ٥–٨)
+### Phase 2 — Classical Machine Learning (Weeks 5–8)
 Supervised, Unsupervised, Evaluation, Feature Engineering.
-**المخرج:** تقدر تبني نموذج ML من الصفر، تقيّمه صح، وتفهم ليش نجح أو فشل.
+**Outcome:** You can build an ML model from scratch, evaluate it properly, and understand why it succeeded or failed.
 
-### المرحلة ٣ — التعلم العميق (أسابيع ٩–١١)
+### Phase 3 — Deep Learning (Weeks 9–11)
 Neural Networks, Computer Vision, NLP + LLMs.
-**المخرج:** تقدر تستخدم PyTorch + Hugging Face لمشاكل حقيقية.
+**Outcome:** You can use PyTorch + Hugging Face for real-world problems.
 
-### المرحلة ٤ — Capstone (أسبوع ١٢)
-مشروع كامل من البداية للنهاية، يدخل portfolio حقك.
+### Phase 4 — Capstone (Week 12)
+A complete end-to-end project for your portfolio.
 
 ---
 
-## جدول الأسابيع
+## Weekly Schedule
 
-| # | الأسبوع | المرحلة | المتطلب السابق |
+| # | Week | Phase | Prerequisite |
 |:-:|---|---|---|
-| 1 | [Python Foundations](week-01-python-foundations/) | الأساسيات | لا شيء |
-| 2 | [Math for DS](week-02-math-for-ds/) | الأساسيات | Week 1 |
-| 3 | [Data Wrangling (Pandas)](week-03-data-wrangling/) | الأساسيات | Week 1 |
-| 4 | [Visualization](week-04-visualization/) | الأساسيات | Week 3 |
-| 5 | [Supervised ML](week-05-supervised-ml/) | ML الكلاسيكي | Weeks 2, 3 |
-| 6 | [Model Evaluation](week-06-model-evaluation/) | ML الكلاسيكي | Week 5 |
-| 7 | [Feature Engineering](week-07-feature-engineering/) | ML الكلاسيكي | Week 6 |
-| 8 | [Unsupervised Learning](week-08-unsupervised/) | ML الكلاسيكي | Week 7 |
+| 1 | [Python Foundations](week-01-python-foundations/) | Foundations | None |
+| 2 | [Math for DS](week-02-math-for-ds/) | Foundations | Week 1 |
+| 3 | [Data Wrangling (Pandas)](week-03-data-wrangling/) | Foundations | Week 1 |
+| 4 | [Visualization](week-04-visualization/) | Foundations | Week 3 |
+| 5 | [Supervised ML](week-05-supervised-ml/) | Classical ML | Weeks 2, 3 |
+| 6 | [Model Evaluation](week-06-model-evaluation/) | Classical ML | Week 5 |
+| 7 | [Feature Engineering](week-07-feature-engineering/) | Classical ML | Week 6 |
+| 8 | [Unsupervised Learning](week-08-unsupervised/) | Classical ML | Week 7 |
 | 9 | [Neural Networks](week-09-neural-networks/) | Deep Learning | Weeks 5–8 |
 | 10 | [Computer Vision](week-10-computer-vision/) | Deep Learning | Week 9 |
 | 11 | [NLP + LLMs](week-11-nlp-llms/) | Deep Learning | Week 9 |
-| 12 | [Capstone Project](week-12-capstone/) | تطبيق | كل الأسابيع |
+| 12 | [Capstone Project](week-12-capstone/) | Applied | All weeks |
 
 ---
 
-## نصائح قبل ما تبدأ
+## Tips Before You Start
 
-1. **لا تقفز.** كل أسبوع له سبب. لو حسيت إنك تعرف الموضوع، اعمل التمرين بسرعة وتأكد، بس لا تتجاوز.
-2. **اكتب الكود بنفسك.** نسخ ولصق ما يبني دماغ. اقفل المتصفح واكتب.
-3. **وثّق في Notion أو GitHub.** كل أسبوع اعمل commit للـ notebooks حقتك. بعد ١٢ أسبوع عندك سجل كامل.
-4. **ادخل مجتمع.** Discord, Twitter, LinkedIn. لا تتعلم لحالك.
-5. **اقبل إنك بتنسى.** ارجع للأسابيع السابقة كل ٣–٤ أسابيع للمراجعة.
+1. **Don't skip.** Every week exists for a reason. If you already know the topic, do the exercise quickly to confirm — but don't skip it.
+2. **Write the code yourself.** Copy-paste doesn't build a brain. Close the browser and type.
+3. **Document in Notion or GitHub.** Commit your notebooks every week. After 12 weeks you'll have a complete record.
+4. **Join a community.** Discord, Twitter, LinkedIn. Don't learn alone.
+5. **Accept that you'll forget.** Revisit earlier weeks every 3–4 weeks for review.
 
 ---
 
-## مدة كل أسبوع — متوسط ١٠–١٥ ساعة
+## Time per Week — Average 10–15 hours
 
-- ٣–٤ ساعات قراءة وفيديوهات
-- ٥–٧ ساعات تطبيق (تمارين + التحدي الأسبوعي)
-- ساعة–ساعتين توثيق وتأمل
+- 3–4 hours reading and watching videos
+- 5–7 hours practice (exercises + weekly challenge)
+- 1–2 hours documentation and reflection
 
-لو عندك أقل من ١٠ ساعات/الأسبوع، خذ كل أسبوع في أسبوعين. لا تخفض الجودة.
+If you have less than 10 hours/week, take two weeks per lesson. Don't lower the quality.
 
-</div>

@@ -1,74 +1,71 @@
-<div dir="rtl">
-
 # 🔬 Track: Research / Academic
 
-> للي يفكر في KAUST MSc، PhD، أو نشر papers.
+> For those considering KAUST MSc, PhD, or publishing papers.
 
 ---
 
-## المهارات اللي تختلف عن الصناعي
+## Skills That Differ from Industry
 
-١. **قراءة Papers بسرعة** — ٣ مستويات: skim, scan, deep read
-٢. **كتابة LaTeX** — Overleaf أساس
-٣. **Reproducibility** — كل تجربة قابلة للتكرار
-٤. **Statistical rigor** — significance testing, confidence intervals, ablation studies
-٥. **Literature review** — Connected Papers, Semantic Scholar
+1. **Reading papers quickly** — 3 levels: skim, scan, deep read
+2. **Writing LaTeX** — Overleaf is the foundation
+3. **Reproducibility** — every experiment must be repeatable
+4. **Statistical rigor** — significance testing, confidence intervals, ablation studies
+5. **Literature review** — Connected Papers, Semantic Scholar
 
 ---
 
-## أدوات
+## Tools
 
-- **Zotero** — لإدارة المراجع
-- **Overleaf** — LaTeX online
-- **Notion / Obsidian** — لتنظيم الملاحظات
-- **NotebookLM** — لتحليل ١٠–٢٠ paper مع بعض
+- **Zotero** — for reference management
+- **Overleaf** — online LaTeX
+- **Notion / Obsidian** — for organizing notes
+- **NotebookLM** — for analyzing 10–20 papers together
 - **Connected Papers** — visual paper exploration
-- **Semantic Scholar** — البحث الذكي
+- **Semantic Scholar** — smart search
 - **Papers With Code** — papers + implementations
 
 ---
 
-## كيف تقرأ paper بكفاءة
+## How to Read a Paper Efficiently
 
-1. **Pass 1 (٥–١٠ دقايق):** Title, abstract, conclusion, figures
-2. **Pass 2 (٣٠ دقيقة):** Full read، خد ملاحظات
-3. **Pass 3 (٢–٤ ساعات):** Re-implement لو الـ paper مهم لمشروعك
+1. **Pass 1 (5–10 min):** Title, abstract, conclusion, figures
+2. **Pass 2 (30 min):** Full read, take notes
+3. **Pass 3 (2–4 hours):** Re-implement if the paper is important for your project
 
 ---
 
-## أين تنشر؟
+## Where to Publish?
 
-### مجلات سهلة الوصول للمبتدئين
-- ⭐ **IEEE Access** — open access, mid-tier, واسع المجال
+### Accessible Journals for Beginners
+- ⭐ **IEEE Access** — open access, mid-tier, broad scope
 - **MDPI Information / Applied Sciences** — open access
-- **ACM Computing Surveys** — للمراجعات
+- **ACM Computing Surveys** — for survey papers
 
-### Conferences (أعلى قيمة من المجلات في CS)
+### Conferences (higher value than journals in CS)
 - **ACL, EMNLP, NAACL** — NLP
 - **CVPR, ICCV, ECCV** — Vision
-- **NeurIPS, ICML, ICLR** — ML الأساسية
-- **AAAI** — AI عام
+- **NeurIPS, ICML, ICLR** — Core ML
+- **AAAI** — General AI
 
-### عربي
-- **Arabic NLP Workshop (في EMNLP عادة)** — مدخل ممتاز للعربي
+### Arabic
+- **Arabic NLP Workshop (usually at EMNLP)** — a great entry point
 - **WANLP** — Workshop on Arabic NLP
 
 ---
 
-## مصادر للتعلم
+## Learning Resources
 
 - [How to Read a Paper — S. Keshav](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)
 - [The Researcher's Bible](https://www.cs.cmu.edu/~jrs/sins.html) — Jim Mickens
-- [PhD Comics](http://phdcomics.com/) — للترفيه أثناء الإحباط
+- [PhD Comics](http://phdcomics.com/) — for entertainment during frustrating times
 
 ---
 
-## السعودية للبحث
+## Saudi Arabia for Research
 
-- **KAUST** — أحسن جامعة بحثية في المنطقة
-- **KAUST Academy** — مدخل للـ KAUST orbit
-- **SDAIA** — research grants أحياناً
+- **KAUST** — the best research university in the region
+- **KAUST Academy** — entry point to the KAUST orbit
+- **SDAIA** — occasional research grants
 - **Princess Nourah AI Lab**
 - **Imam Mohammad Ibn Saud University AI Lab**
 
-</div>

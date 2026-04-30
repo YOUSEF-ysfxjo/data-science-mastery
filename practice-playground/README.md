@@ -1,39 +1,36 @@
-<div dir="rtl">
-
 # 🎮 Practice Playground
 
-> **هذا المجلد يحتوي على bugs ومشاكل عمداً.** الفكرة: تتمرن على Git, GitHub, debugging في بيئة آمنة.
+> **This folder intentionally contains bugs and problems.** The idea: practice Git, GitHub, and debugging in a safe environment.
 
 ---
 
-## التمارين
+## Exercises
 
-### 1. أصلح خطأ إملائي
-في ملف [`typo.md`](typo.md) فيه ٣ أخطاء إملائية.
+### 1. Fix a Typo
+In the file [`typo.md`](typo.md) there are 3 spelling mistakes.
 - Fork → branch (`fix-typos`) → fix → PR
 
-### 2. أصلح merge conflict
-سيتم إنشاء branch اسمه `conflict-practice` بـ conflict مع `main`. اعمله merge بنفسك.
+### 2. Resolve a Merge Conflict
+A branch called `conflict-practice` will be created with a conflict against `main`. Merge it yourself.
 
-### 3. notebook فيه bug
-[`buggy-notebook.ipynb`](buggy-notebook.ipynb) — فيه ٥ أخطاء (أنواع: NameError, off-by-one, leakage, dtype mismatch, hardcoded path). اكتشفهم وأصلحهم في PR.
+### 3. Notebook with a Bug
+[`buggy-notebook.ipynb`](buggy-notebook.ipynb) — contains 5 errors (types: NameError, off-by-one, leakage, dtype mismatch, hardcoded path). Find them and fix them in a PR.
 
-### 4. dataset متسخ
-[`messy-data.csv`](messy-data.csv) — فيه null values, duplicates, encoding issues, wrong dtypes. نظّفه واكتب notebook يوثّق العملية.
-
----
-
-## القواعد
-
-- لا تفتح PR بدون issue مرتبطة (افتح issue أولاً يصف المشكلة)
-- اكتب commit messages واضحة (`fix: remove off-by-one in train_test_split`)
-- ارفق screenshot قبل/بعد لو ينفع
-- اطلب مراجعة PR من المُنسّق
+### 4. Messy Dataset
+[`messy-data.csv`](messy-data.csv) — contains null values, duplicates, encoding issues, and wrong dtypes. Clean it and write a notebook documenting the process.
 
 ---
 
-## ليش هذا المجلد موجود؟
+## Rules
 
-تتعلم Git أحسن لما تواجه مشاكل حقيقية، مو لما تقرأ tutorials. هذا المجلد كأنه "صالة تدريب".
+- Don't open a PR without a linked issue (open the issue first, describing the problem)
+- Write clear commit messages (`fix: remove off-by-one in train_test_split`)
+- Attach a before/after screenshot if applicable
+- Request a PR review from the curator
 
-</div>
+---
+
+## Why Does This Folder Exist?
+
+You learn Git better when you face real problems, not when you read tutorials. This folder is like a "training gym."
+

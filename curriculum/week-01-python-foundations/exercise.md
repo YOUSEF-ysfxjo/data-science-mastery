@@ -1,41 +1,38 @@
-<div dir="rtl">
+# Week 1 Exercise — Titanic EDA
 
-# تمرين الأسبوع ١ — Titanic EDA
+## The Task
+Download the Titanic dataset from Kaggle and answer the following questions using Pandas only (no ML).
 
-## المهمة
-حمّل dataset الـ Titanic من Kaggle، وأجب على الأسئلة التالية بـ Pandas فقط (بدون ML).
+📦 [Dataset link](https://www.kaggle.com/c/titanic/data) — download `train.csv`.
 
-📦 [Dataset link](https://www.kaggle.com/c/titanic/data) — حمّل `train.csv`.
+## Questions
 
-## الأسئلة
+1. What percentage of passengers survived?
+2. What is the survival rate for women vs. men?
+3. What is the survival rate by ticket class (Pclass)?
+4. What is the average age of survivors vs. non-survivors?
+5. How many passengers have a missing `Age` value? How will you handle these missing values?
+6. Create a new feature called `FamilySize` = `SibSp + Parch + 1`. Does a larger family size correlate with higher survival?
+7. Extract 3 insights that were not obvious before the analysis.
 
-١. كم نسبة اللي نجوا من الركاب؟
-٢. كم نسبة النجاة بين النساء مقابل الرجال؟
-٣. كم نسبة النجاة بحسب درجة التذكرة (Pclass)؟
-٤. ما متوسط عمر اللي نجوا مقابل اللي ماتوا؟
-٥. كم راكب فقدوا قيمة العمر (`Age` is null)؟ كيف ستتعامل مع هذي القيم؟
-٦. ابنِ feature جديد اسمه `FamilySize` = `SibSp + Parch + 1`. هل عائلة أكبر = نجاة أعلى؟
-٧. اطلع ٣ ملاحظات (insights) ما كانت واضحة قبل التحليل.
+## Submission
 
-## التسليم
+1. A notebook named `week-01-titanic-eda.ipynb`
+2. Push it to a new repo named `ds-week-01-<yourname>`
+3. Write a README that includes:
+   - What you did
+   - Top 3 insights
+   - One screenshot from the notebook
+4. Share it on LinkedIn (optional but strongly recommended)
 
-١. notebook اسمه `week-01-titanic-eda.ipynb`
-٢. ارفعه على repo جديد اسمه `ds-week-01-<اسمك>`
-٣. اكتب README فيه:
-   - وش سويت
-   - أهم ٣ insights
-   - لقطة شاشة واحدة من الـ notebook
-٤. شاركه في LinkedIn (اختياري لكن يُنصح به بشدة)
+## Self-Evaluation Criteria
 
-## معايير التقييم الذاتي
+- [ ] Code is clean and commented in English or Arabic
+- [ ] Used `groupby` and `value_counts` correctly
+- [ ] Did not use a `for loop` where Pandas can do the operation
+- [ ] Answers are correct and you can explain them to someone else
 
-- [ ] الكود نظيف ومعلّق عليه بالعربي/الإنجليزي
-- [ ] استخدمت `groupby` و `value_counts` بشكل صحيح
-- [ ] ما استخدمت `for loop` لما يكدر Pandas يسوي العملية
-- [ ] الإجابات صحيحة وتقدر تشرحها لشخص ثاني
+## A Note from the Curator
 
-## نصيحة من المُنسّق
+Don't rush. This exercise is simple but **don't look at someone else's solution** before you finish it. The value is in the struggle, not the result.
 
-لا تستعجل. هذا التمرين بسيط بس **لا تفتح حل غيرك** قبل ما تخلصه. الفائدة في الكدّ، مو في النتيجة.
-
-</div>
