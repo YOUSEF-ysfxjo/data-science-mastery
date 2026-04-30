@@ -62,6 +62,18 @@ Each week contains:
 
 ---
 
+## How to Update This Repo (Best Practice)
+
+If you want to improve this project, use the PR workflow and do **not** push directly to `main`.
+
+- Start with a fork and create a dedicated branch for your change.
+- Open a Pull Request and wait for maintainer review before merge.
+- Follow the full contribution guide in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+Only reviewed PRs are accepted. This keeps the curriculum clean and consistent.
+
+---
+
 ## Additional Sections
 
 | Folder | Contents |
