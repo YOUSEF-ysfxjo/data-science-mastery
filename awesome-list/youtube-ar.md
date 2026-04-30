@@ -8,21 +8,21 @@
 - **Focus:** Machine Learning in Arabic, practically
 - **Why:** The most comprehensive Arabic ML channel with applied explanations.
 
-## ⭐⭐ [Khaled Al-Sarrar](https://www.youtube.com/@KhaledAlsarrar)
+## ⭐⭐ [Arabsera — Linear Algebra (Dr. Waleed A. Yousef)](https://www.arabsera.org/course/linear-algebra-audit)
 - **Focus:** Linear Algebra in Arabic
-- **Why:** Excellent academic math explanations.
+- **Why:** Structured Arabic course with clear progression and supporting materials.
 
 ## ⭐⭐ [Mohammed Almaghraby](https://www.youtube.com/@MohammedAlmaghraby)
 - **Focus:** AI and Data Science
 - **Why:** Modern and well-organized Arabic content.
 
-## ⭐⭐ [Mohammed Zyad (MhdZiyaa)](https://www.youtube.com/@MhdZiyaa)
+## ⭐⭐ [Elzero Web School](https://www.youtube.com/@ElzeroWebSchool)
 - **Focus:** Python and programming
-- **Why:** Python fundamentals in Arabic, explained patiently.
+- **Why:** Consistent Arabic teaching style with complete beginner-friendly playlists.
 
-## ⭐ [SDAIA Academy](https://www.youtube.com/@SDAIA_Academy)
+## ⭐ [SDAIA](https://www.youtube.com/@SDAIA)
 - **Focus:** Saudi AI content
-- **Why:** Saudi lectures and seminars.
+- **Why:** Official SDAIA videos, events, and AI initiatives in Saudi Arabia.
 
 ## ⭐ [KAUST Academy](https://www.youtube.com/@KAUSTAcademy)
 - **Focus:** Advanced AI

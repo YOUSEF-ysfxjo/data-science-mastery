@@ -60,7 +60,7 @@ Everything beyond this, you learn when you need it.
 **[Mathematics for ML and Data Science Specialization — DeepLearning.AI](https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science)** — 3 courses. Take all of them if you have no background. Free to audit.
 
 ### In Arabic
-**[Khaled Al-Sarrar's YouTube channel — Linear Algebra](https://www.youtube.com/@KhaledAlsarrar)** — excellent academic Arabic explanations.
+**[Arabsera — Linear Algebra, Part I (Dr. Waleed A. Yousef)](https://www.arabsera.org/course/linear-algebra-audit)** — structured Arabic linear algebra course with lecture materials.
 
 ### For Quick Review
 **[Mathematics for Machine Learning (Book — free)](https://mml-book.github.io/)** — Deisenroth, Faisal, Ong. Start from Chapter 2.
