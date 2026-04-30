@@ -38,7 +38,7 @@
 from transformers import pipeline
 
 classifier = pipeline("sentiment-analysis", model="UBC-NLP/MARBERT")
-result = classifier("الخدمة كانت ممتازة جداً")
+result = classifier("The service was excellent and very fast")
 print(result)
 ```
 
@@ -51,7 +51,7 @@ model = AutoModelForSequenceClassification.from_pretrained(
     "UBC-NLP/MARBERT", num_labels=3
 )
 
-inputs = tokenizer("النص العربي هنا", return_tensors="pt")
+inputs = tokenizer("Sample English text goes here", return_tensors="pt")
 with torch.no_grad():
     outputs = model(**inputs)
 ```
