@@ -1,116 +1,112 @@
-<div dir="rtl">
+# Week 1 — Python Foundations for Data Science
 
-# الأسبوع ١ — أساسيات Python لعلم البيانات
-## Week 1 — Python Foundations for Data Science
-
-> **الهدف:** بعد هذا الأسبوع، تقدر تفتح ملف بيانات، تقرأه بـ NumPy/Pandas، وتطلع منه إحصاءات أساسية بدون ما تجوجل كل سطر.
+> **Goal:** By the end of this week, you can open a data file, read it with NumPy/Pandas, and extract basic statistics without Googling every line.
 
 ---
 
-## ليش Python؟ — Why Python?
+## Why Python?
 
-علم البيانات يحتاج لغة:
-- سهلة الكتابة (تركز على المشكلة، مو على الـ syntax)
-- عندها مكتبات قوية (NumPy, Pandas, Scikit-learn, PyTorch)
-- مجتمع ضخم (إجابات لكل سؤال)
+Data science needs a language that is:
+- Easy to write (focus on the problem, not the syntax)
+- Has powerful libraries (NumPy, Pandas, Scikit-learn, PyTorch)
+- Has a huge community (answers to every question)
 
-R لغة ممتازة بس Python غلبت في الصناعة. R يبقى مفيد للإحصاء الأكاديمي.
+R is an excellent language but Python has won in industry. R remains useful for academic statistics.
 
 ---
 
-## ماذا تتعلم هذا الأسبوع
+## What You Learn This Week
 
-### يوم ١–٢: Python أساسي (لو ما تعرف)
+### Day 1–2: Python Basics (if you don't know it yet)
 - Variables, types, lists, dicts, tuples, sets
 - Control flow: `if`, `for`, `while`
 - Functions, scope, `*args`, `**kwargs`
-- List comprehensions — **مهم جداً**
-- File I/O: قراءة وكتابة ملفات
+- List comprehensions — **very important**
+- File I/O: reading and writing files
 
-> **لو تعرف Python أصلاً:** اقفز لليوم الثالث.
+> **If you already know Python:** skip to Day 3.
 
-### يوم ٣: NumPy
-- `np.array` — ليش هو أسرع من list؟
-- Vectorization (لا تستخدم `for` على arrays)
+### Day 3: NumPy
+- `np.array` — why is it faster than a list?
+- Vectorization (don't use `for` loops on arrays)
 - Broadcasting
 - Indexing & slicing
 - Random numbers (`np.random`)
 
-### يوم ٤–٥: Pandas (مقدمة)
-- `Series` و `DataFrame`
-- قراءة CSV, Excel, JSON
+### Day 4–5: Pandas (Introduction)
+- `Series` and `DataFrame`
+- Reading CSV, Excel, JSON
 - `.head()`, `.info()`, `.describe()`
 - Filtering rows, selecting columns
-- `.groupby()` المبدئي
+- Basic `.groupby()`
 
-### يوم ٦: Jupyter + Git
-- ليش Jupyter notebooks للاستكشاف
-- VS Code + extension للـ notebooks (أحسن من Jupyter Lab لأكثر الناس)
-- Git أساسي: `init`, `add`, `commit`, `push`
-- ربط GitHub بحسابك
+### Day 6: Jupyter + Git
+- Why Jupyter notebooks for exploration
+- VS Code + notebook extension (better than Jupyter Lab for most people)
+- Basic Git: `init`, `add`, `commit`, `push`
+- Connecting GitHub to your account
 
-### يوم ٧: التحدي الأسبوعي
-[انظر `exercise.md`](exercise.md)
-
----
-
-## المصادر المختارة (٣ بس، مو ١٥)
-
-### المصدر الأساسي ⭐
-**[Python Data Science Handbook — Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/)** — مجاني، notebooks قابلة للتشغيل في Colab. اقرأ الفصول 1–3.
-
-### للمبتدئين تماماً
-**[Python for Everybody — د. Charles Severance (Coursera)](https://www.coursera.org/specializations/python)** — مجاني للمراجعة. خذ Course 1 + 2 إذا Python جديد عليك.
-
-### بالعربي
-**[قناة محمد ضياء على يوتيوب — Python بالعربي](https://www.youtube.com/@MhdZiyaa)** — شرح هادئ وواضح.
-
-> **لا تشتت نفسك.** اختار واحد والتزم. الباقي ضوضاء.
+### Day 7: Weekly Challenge
+[See `exercise.md`](exercise.md)
 
 ---
 
-## أوامر Pandas اللي بتستخدمها كل يوم
+## Curated Resources (3 only, not 15)
+
+### Primary Resource ⭐
+**[Python Data Science Handbook — Jake VanderPlas](https://jakevdp.github.io/PythonDataScienceHandbook/)** — free, notebooks runnable in Colab. Read Chapters 1–3.
+
+### For Complete Beginners
+**[Python for Everybody — Dr. Charles Severance (Coursera)](https://www.coursera.org/specializations/python)** — free to audit. Take Course 1 + 2 if Python is new to you.
+
+### In Arabic
+**[Mohammed Zyad's YouTube channel — Python in Arabic](https://www.youtube.com/@MhdZiyaa)** — calm and clear explanations.
+
+> **Don't distract yourself.** Pick one and commit. The rest is noise.
+
+---
+
+## Pandas Commands You'll Use Every Day
 
 ```python
 import pandas as pd
 
-df = pd.read_csv("data.csv")     # قراءة
-df.head()                         # أول ٥ صفوف
-df.info()                         # أنواع الأعمدة + null counts
-df.describe()                     # إحصاءات عددية
+df = pd.read_csv("data.csv")     # read file
+df.head()                         # first 5 rows
+df.info()                         # column types + null counts
+df.describe()                     # numerical statistics
 df.shape                          # (rows, columns)
-df.columns                        # أسماء الأعمدة
+df.columns                        # column names
 
-df["age"]                         # عمود واحد (Series)
-df[["age", "salary"]]             # أعمدة متعددة
+df["age"]                         # single column (Series)
+df[["age", "salary"]]             # multiple columns
 df[df["age"] > 25]                # filter
-df.groupby("city")["salary"].mean()  # تجميع
+df.groupby("city")["salary"].mean()  # group and aggregate
 ```
 
-احفظ هذي ال١٠ أسطر. هي ٨٠٪ من شغلك اليومي.
+Memorize these 10 lines. They cover 80% of your daily work.
 
 ---
 
-## بعد ما تخلص
+## After You Finish
 
-- ✅ ارفع notebook التحدي على GitHub في repo اسمه `ds-week-01`
-- ✅ اكتب README.md بسيط: وش سويت، وش تعلمت، وش الصعوبات
-- ✅ شارك الـ repo في LinkedIn — `#100DaysOfDataScience`
-- ✅ راجع [`quiz.md`](quiz.md) قبل ما تنتقل للأسبوع ٢
+- ✅ Push the challenge notebook to GitHub in a repo named `ds-week-01`
+- ✅ Write a simple README.md: what you did, what you learned, what was challenging
+- ✅ Share the repo on LinkedIn — `#100DaysOfDataScience`
+- ✅ Review [`quiz.md`](quiz.md) before moving to Week 2
 
 ---
 
-## أخطاء شائعة هذا الأسبوع
+## Common Mistakes This Week
 
-| الخطأ | الحل |
+| Mistake | Fix |
 |---|---|
-| تستخدم `for loop` على NumPy array | استخدم vectorized operations |
-| تنسى `inplace=True` أو لا تحفظ النتيجة | `df = df.dropna()` بدل `df.dropna()` |
-| تخلط بين `.loc[]` و `.iloc[]` | `loc` للأسماء، `iloc` للأرقام |
-| تعدل DataFrame وأنت تكرر عليه | استخدم `.copy()` لما تشك |
+| Using `for loop` on a NumPy array | Use vectorized operations |
+| Forgetting `inplace=True` or not saving the result | `df = df.dropna()` instead of `df.dropna()` |
+| Confusing `.loc[]` with `.iloc[]` | `loc` for labels, `iloc` for positions |
+| Modifying a DataFrame while iterating over it | Use `.copy()` when in doubt |
 
 ---
 
-[**← المنهج الرئيسي**](../README.md) · [**التمرين →**](exercise.md) · [**الأسبوع ٢ →**](../week-02-math-for-ds/)
+[**← Main Curriculum**](../README.md) · [**Exercise →**](exercise.md) · [**Week 2 →**](../week-02-math-for-ds/)
 
-</div>

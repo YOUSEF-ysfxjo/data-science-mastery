@@ -1,45 +1,42 @@
-<div dir="rtl">
+# Week 8 — Unsupervised Learning
 
-# الأسبوع ٨ — التعلم غير الموجَّه
-## Week 8 — Unsupervised Learning
-
-> **متى تستخدمه:** ما عندك labels. تبي تكتشف بنية مخفية في البيانات.
+> **When to use it:** You have no labels. You want to discover hidden structure in your data.
 
 ---
 
 ## Clustering
 
-- **K-Means** — الأشهر. اختر K بـ Elbow method أو Silhouette.
-- **DBSCAN** — للأشكال غير الكروية + يكتشف outliers.
-- **Hierarchical Clustering** — يعطيك dendrogram. مفيد لما ما تعرف K.
-- **Gaussian Mixture Models (GMM)** — soft clustering (احتمالات).
+- **K-Means** — the most popular. Choose K with the Elbow method or Silhouette score.
+- **DBSCAN** — for non-spherical shapes + detects outliers.
+- **Hierarchical Clustering** — gives you a dendrogram. Useful when you don't know K.
+- **Gaussian Mixture Models (GMM)** — soft clustering (probabilities).
 
 ## Dimensionality Reduction
 
-- **PCA (Principal Component Analysis)** — الأساس. linear projection.
-- **t-SNE** — للـ visualization فقط (لا تستخدمه قبل ML model).
-- **UMAP** — أحسن من t-SNE في أكثر الحالات.
+- **PCA (Principal Component Analysis)** — the foundation. Linear projection.
+- **t-SNE** — for visualization only (don't use before an ML model).
+- **UMAP** — better than t-SNE in most cases.
 
 ## Anomaly Detection
 
 - Isolation Forest
 - One-Class SVM
-- Autoencoders (موّجل لـ Deep Learning)
+- Autoencoders (deferred to Deep Learning)
 
 ---
 
-## متى تستخدم وش
+## When to Use What
 
-| السيناريو | الحل |
+| Scenario | Solution |
 |---|---|
-| تجزئة عملاء (segmentation) | K-Means |
-| كشف احتيال (fraud) | Isolation Forest |
-| تقليل أبعاد قبل classification | PCA |
-| visualizing high-dim data | UMAP |
+| Customer segmentation | K-Means |
+| Fraud detection | Isolation Forest |
+| Dimensionality reduction before classification | PCA |
+| Visualizing high-dimensional data | UMAP |
 
 ---
 
-## المصادر
+## Resources
 
 - ⭐ [Scikit-learn — Clustering](https://scikit-learn.org/stable/modules/clustering.html)
 - [StatQuest — PCA Step by Step](https://www.youtube.com/watch?v=FgakZw6K1QQ)
@@ -47,12 +44,11 @@
 
 ---
 
-## التحدي
+## Challenge
 
-استخدم [Mall Customer Segmentation Dataset](https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python). جرّب K-Means و DBSCAN. ارسم clusters بـ PCA.
+Use the [Mall Customer Segmentation Dataset](https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python). Try K-Means and DBSCAN. Plot clusters using PCA.
 
 ---
 
-[**← الأسبوع ٧**](../week-07-feature-engineering/) · [**الأسبوع ٩ →**](../week-09-neural-networks/)
+[**← Week 7**](../week-07-feature-engineering/) · [**Week 9 →**](../week-09-neural-networks/)
 
-</div>

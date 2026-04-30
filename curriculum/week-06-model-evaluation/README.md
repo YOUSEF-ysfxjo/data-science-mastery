@@ -1,55 +1,52 @@
-<div dir="rtl">
+# Week 6 — Model Evaluation
 
-# الأسبوع ٦ — تقييم النماذج
-## Week 6 — Model Evaluation
-
-> **سرّ صناعي:** أكثر النماذج "عالية الدقة" في portfolios المبتدئين، عندها مشاكل تقييم. هذا الأسبوع يحميك من الإحراج في المقابلات.
+> **Industry secret:** Most "high-accuracy" models in beginner portfolios have evaluation problems. This week protects you from embarrassment in interviews.
 
 ---
 
-## ليش Accuracy ما يكفي؟
+## Why Accuracy Isn't Enough
 
-تخيّل dataset فيه ٩٩٪ غير مرضى و١٪ مرضى. نموذج يقول "كلكم سليمين" يطلع accuracy = 99%.
-**لا تستخدم accuracy لما الفئات غير متوازنة.**
+Imagine a dataset where 99% are healthy and 1% are sick. A model that says "everyone is healthy" gets accuracy = 99%.
+**Don't use accuracy when classes are imbalanced.**
 
 ---
 
-## المقاييس اللي لازم تعرفها
+## Metrics You Must Know
 
 ### Classification
-- **Confusion Matrix** — TP, FP, TN, FN. **افهمها بعمق.**
-- **Precision** = TP / (TP + FP) — "كم من المتوقعين موجبين فعلاً موجبين"
-- **Recall (Sensitivity)** = TP / (TP + FN) — "كم من الموجبين الحقيقيين أمسكناهم"
-- **F1 Score** = harmonic mean of P and R
-- **ROC-AUC** — لا يعتمد على threshold
-- **Precision-Recall Curve** — أحسن من ROC للـ imbalanced data
+- **Confusion Matrix** — TP, FP, TN, FN. **Understand it deeply.**
+- **Precision** = TP / (TP + FP) — "of the predicted positives, how many are actually positive"
+- **Recall (Sensitivity)** = TP / (TP + FN) — "of the actual positives, how many did we catch"
+- **F1 Score** = harmonic mean of Precision and Recall
+- **ROC-AUC** — threshold-independent
+- **Precision-Recall Curve** — better than ROC for imbalanced data
 
 ### Regression
-- **MAE, MSE, RMSE** — افهم الفرق
-- **R²** — كم من التباين شرحه النموذج
-- **MAPE** — للـ business reports
+- **MAE, MSE, RMSE** — understand the difference
+- **R²** — how much variance the model explains
+- **MAPE** — for business reports
 
 ---
 
 ## Cross-Validation
 
-- ليش train/test split واحد ما يكفي
-- K-Fold CV (افتراضياً K=5)
-- Stratified K-Fold للـ imbalanced classes
-- Time Series CV (لا تستخدم K-Fold عادي على بيانات زمنية)
+- Why a single train/test split isn't enough
+- K-Fold CV (default K=5)
+- Stratified K-Fold for imbalanced classes
+- Time Series CV (don't use regular K-Fold on time-series data)
 
 ---
 
-## المفاهيم الذهبية
+## Golden Concepts
 
-- **Overfitting** — train accuracy عالي، test accuracy منخفض
-- **Underfitting** — كلاهما منخفض
-- **Bias-Variance Tradeoff** — مفهوم لازم تشرحه في أي مقابلة
-- **Data Leakage** — لما test data تسرّب للـ training (الكارثة الصامتة)
+- **Overfitting** — high train accuracy, low test accuracy
+- **Underfitting** — both are low
+- **Bias-Variance Tradeoff** — a concept you must explain in any interview
+- **Data Leakage** — when test data leaks into training (the silent disaster)
 
 ---
 
-## المصادر
+## Resources
 
 - ⭐ [Scikit-learn — Model Evaluation Guide](https://scikit-learn.org/stable/modules/model_evaluation.html)
 - [StatQuest — ROC and AUC](https://www.youtube.com/watch?v=4jRBRDbJemM)
@@ -57,12 +54,11 @@
 
 ---
 
-## التحدي
+## Challenge
 
-ارجع لنموذج الأسبوع ٥. أعد تقييمه بـ ٥ مقاييس مختلفة. اطلع confusion matrix. حدد فئة من الفئات النموذج يفشل فيها بشكل خاص.
+Go back to Week 5's model. Re-evaluate it with 5 different metrics. Plot the confusion matrix. Identify which class the model fails on most.
 
 ---
 
-[**← الأسبوع ٥**](../week-05-supervised-ml/) · [**الأسبوع ٧ →**](../week-07-feature-engineering/)
+[**← Week 5**](../week-05-supervised-ml/) · [**Week 7 →**](../week-07-feature-engineering/)
 
-</div>

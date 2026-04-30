@@ -1,24 +1,21 @@
-<div dir="rtl">
+# Week 7 — Feature Engineering
 
-# الأسبوع ٧ — هندسة الميزات
-## Week 7 — Feature Engineering
-
-> **القاعدة الذهبية:** Features قوية + نموذج بسيط > Features ضعيفة + نموذج معقد.
+> **The golden rule:** Strong features + simple model > weak features + complex model.
 
 ---
 
-## ماذا تتعلم
+## What You Learn
 
 ### Encoding
-- One-Hot Encoding — للـ categorical غير مرتب
-- Label Encoding — للـ ordinal
-- Target Encoding — قوي لكن يحتاج cross-validation عشان ما يحصل leakage
-- Binary Encoding — لما عندك categories كثيرة
+- One-Hot Encoding — for unordered categorical data
+- Label Encoding — for ordinal data
+- Target Encoding — powerful but needs cross-validation to avoid leakage
+- Binary Encoding — for high-cardinality categories
 
 ### Scaling
-- StandardScaler (mean=0, std=1) — للنماذج اللي تعتمد على المسافة
-- MinMaxScaler [0, 1] — للـ neural networks
-- RobustScaler — لما عندك outliers
+- StandardScaler (mean=0, std=1) — for distance-based models
+- MinMaxScaler [0, 1] — for neural networks
+- RobustScaler — when you have outliers
 
 ### Feature Creation
 - Interaction features (x1 × x2)
@@ -30,18 +27,18 @@
 ### Feature Selection
 - Correlation analysis
 - Recursive Feature Elimination (RFE)
-- Feature importance من Random Forest / XGBoost
+- Feature importance from Random Forest / XGBoost
 - SHAP values
 
 ---
 
-## Gradient Boosting — النجوم
+## Gradient Boosting — The Stars
 
-- **XGBoost** — كان ملك Kaggle لسنوات
-- **LightGBM** — أسرع، أحسن للـ datasets الكبيرة
-- **CatBoost** — يتعامل مع categorical تلقائياً
+- **XGBoost** — was king of Kaggle for years
+- **LightGBM** — faster, better for large datasets
+- **CatBoost** — handles categorical data automatically
 
-نصيحة: ابدأ بـ LightGBM في أكثر المشاريع.
+Tip: Start with LightGBM in most projects.
 
 ---
 
@@ -65,11 +62,11 @@ pipeline = Pipeline([
 pipeline.fit(X_train, y_train)
 ```
 
-استخدم Pipelines دايماً. تمنع leakage وتسهّل deployment.
+Always use Pipelines. They prevent leakage and make deployment easier.
 
 ---
 
-## المصادر
+## Resources
 
 - ⭐ [Feature Engineering A–Z (Kaggle Course)](https://www.kaggle.com/learn/feature-engineering)
 - [Feature Engineering for ML — Alice Zheng (Book)](https://www.oreilly.com/library/view/feature-engineering-for/9781491953235/)
@@ -77,12 +74,11 @@ pipeline.fit(X_train, y_train)
 
 ---
 
-## التحدي
+## Challenge
 
-ارجع للـ Titanic. أنشئ ٥ features جديدة (مثل `Title` من الاسم، `IsAlone`, `AgeGroup`). قارن النتائج قبل وبعد.
+Go back to Titanic. Create 5 new features (e.g., `Title` from the name, `IsAlone`, `AgeGroup`). Compare results before and after.
 
 ---
 
-[**← الأسبوع ٦**](../week-06-model-evaluation/) · [**الأسبوع ٨ →**](../week-08-unsupervised/)
+[**← Week 6**](../week-06-model-evaluation/) · [**Week 8 →**](../week-08-unsupervised/)
 
-</div>

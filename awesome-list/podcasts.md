@@ -1,22 +1,19 @@
-<div dir="rtl">
-
 # 🎙️ Podcasts
 
 ---
 
 ## ⭐⭐⭐ [Lex Fridman Podcast](https://lexfridman.com/podcast/)
-- مقابلات طويلة مع كبار الـ AI (Karpathy, Sutskever, LeCun).
+- Long-form interviews with top AI figures (Karpathy, Sutskever, LeCun).
 
 ## ⭐⭐ [The TWIML AI Podcast](https://twimlai.com/)
-- This Week in ML & AI. مقابلات تقنية.
+- This Week in ML & AI. Technical interviews.
 
 ## ⭐⭐ [Practical AI](https://changelog.com/practicalai)
-- AI في التطبيق العملي.
+- AI in real-world applications.
 
 ## ⭐ [Data Skeptic](https://dataskeptic.com/)
-- مفاهيم DS بصوت ودود.
+- DS concepts explained in a friendly voice.
 
 ## ⭐ [Linear Digressions](http://lineardigressions.com/)
-- خفيف وممتع، مناسب أثناء القيادة.
+- Light and entertaining, great for listening while driving.
 
-</div>

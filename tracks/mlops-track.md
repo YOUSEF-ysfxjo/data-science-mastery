@@ -1,15 +1,13 @@
-<div dir="rtl">
-
 # ⚙️ Track: MLOps
 
-> **حقيقة:** السوق يحتاج MLOps أكثر من Data Scientists. إذا تجمع المهارتين، أنت **نادر**.
+> **Reality:** The market needs MLOps more than Data Scientists. If you combine both skill sets, you are **rare**.
 
 ---
 
-## المنهج (١٠ أسابيع)
+## Curriculum (10 weeks)
 
 ### Week 1–2: Containers + APIs
-- Docker بعمق
+- Docker in depth
 - FastAPI for ML
 - Pydantic, async
 - Reverse proxies (nginx)
@@ -21,7 +19,7 @@
 
 ### Week 4: Cloud Basics
 - AWS (S3, EC2, Lambda, SageMaker)
-- أو GCP / Azure
+- Or GCP / Azure
 - IAM + cost management
 
 ### Week 5: Experiment Tracking
@@ -31,7 +29,7 @@
 
 ### Week 6: Orchestration
 - Airflow
-- Prefect (الحديث)
+- Prefect (modern alternative)
 - Kubeflow
 
 ### Week 7: Model Serving
@@ -49,22 +47,21 @@
 - Feast
 - Tecton
 
-### Week 10: مشروع شامل
-End-to-end pipeline يدمج كل اللي فوق.
+### Week 10: Comprehensive Project
+End-to-end pipeline integrating everything above.
 
 ---
 
-## كتب
+## Books
 
-- ⭐ **[Designing Machine Learning Systems — Chip Huyen](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/)** — لازم
+- ⭐ **[Designing Machine Learning Systems — Chip Huyen](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/)** — essential
 - **Reliable Machine Learning — Chen et al.**
 
 ---
 
-## مصادر
+## Resources
 
-- [Made With ML](https://madewithml.com/) — كورس MLOps مجاني ممتاز
+- [Made With ML](https://madewithml.com/) — excellent free MLOps course
 - [MLOps Community](https://mlops.community/)
 - [Full Stack Deep Learning](https://fullstackdeeplearning.com/)
 
-</div>

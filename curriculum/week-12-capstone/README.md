@@ -1,46 +1,43 @@
-<div dir="rtl">
+# Week 12 — Capstone Project
 
-# الأسبوع ١٢ — مشروع التخرج (Capstone)
-## Week 12 — Capstone Project
-
-> **الفكرة:** مشروع واحد كامل، نشر بشكل احترافي، يكون نجم portfolio حقك.
+> **The idea:** one complete project, published professionally, as the star of your portfolio.
 
 ---
 
-## معايير المشروع الجيد
+## Criteria for a Good Project
 
-✅ يحل مشكلة حقيقية (مو "Iris classification")
-✅ بيانات حقيقية (مو dataset جاهز من sklearn)
-✅ كامل: من جمع البيانات للـ deployment
-✅ موثّق (README ممتاز + blog post)
-✅ يقدر يشتغل على جهاز شخص ثاني (reproducible)
-
----
-
-## أمثلة لأفكار مشاريع
-
-### مستوى ١ (مقبول)
-- نموذج توقع أسعار سيارات في السوق السعودي (web scraping من haraj.com)
-- تحليل مشاعر تغريدات عربية حول حدث رياضي
-- نظام توصية أفلام (collaborative filtering)
-
-### مستوى ٢ (ممتاز)
-- نظام تصنيف شكاوى عربية بـ MARBERT (مع API)
-- نموذج توقع وقت إنجاز Hajj operations (لو عندك بيانات وزارة الحج)
-- chatbot عربي بـ RAG على dataset قانوني/طبي
-
-### مستوى ٣ (مذهل — يفتح أبواب)
-- بحث منشور (paper) + repo + dataset
-- مشروع في مسابقة Kaggle بترتيب top 10%
-- مساهمة فعلية في open source project كبير (Hugging Face, Pandas, etc.)
+✅ Solves a real problem (not "Iris classification")
+✅ Uses real data (not a pre-built sklearn dataset)
+✅ End-to-end: from data collection to deployment
+✅ Well documented (excellent README + blog post)
+✅ Reproducible on another person's machine
 
 ---
 
-## بنية المشروع الذهبية
+## Project Ideas
+
+### Level 1 (Acceptable)
+- A car price prediction model for the Saudi market (web scraping from haraj.com)
+- Sentiment analysis of Arabic tweets about a sporting event
+- A movie recommendation system (collaborative filtering)
+
+### Level 2 (Excellent)
+- An Arabic complaint classification system with MARBERT (with an API)
+- A prediction model for Hajj operations completion time (if you have Ministry of Hajj data)
+- An Arabic chatbot with RAG on a legal/medical dataset
+
+### Level 3 (Outstanding — opens doors)
+- A published paper + repo + dataset
+- A top 10% ranking in a Kaggle competition
+- A real contribution to a major open source project (Hugging Face, Pandas, etc.)
+
+---
+
+## Golden Project Structure
 
 ```
 my-capstone/
-├── README.md                # ⭐ النجم — اكتبه ممتاز
+├── README.md                # ⭐ The star — write it well
 ├── notebooks/
 │   ├── 01-eda.ipynb
 │   ├── 02-modeling.ipynb
@@ -50,9 +47,9 @@ my-capstone/
 │   ├── features.py
 │   ├── train.py
 │   ├── evaluate.py
-│   └── api.py              # FastAPI لو فيه deployment
-├── models/                  # نماذج محفوظة (.gitignore لو كبيرة)
-├── data/                    # عادة .gitignore
+│   └── api.py              # FastAPI for deployment (if applicable)
+├── models/                  # saved models (.gitignore if large)
+├── data/                    # usually .gitignore
 ├── tests/
 ├── Dockerfile
 ├── requirements.txt
@@ -60,47 +57,46 @@ my-capstone/
 └── LICENSE
 ```
 
-استخدم [Cookiecutter Data Science](https://github.com/drivendataorg/cookiecutter-data-science) كقالب.
+Use [Cookiecutter Data Science](https://github.com/drivendataorg/cookiecutter-data-science) as a template.
 
 ---
 
-## README ممتاز يحتوي:
+## A Great README Contains:
 
-١. عنوان واضح + شعار/صورة
-٢. الـ problem statement
-٣. الـ solution architecture (مخطط)
-٤. النتائج (metrics + visualizations)
-٥. كيف تشغّله (`make run` أو خطوات clone & install)
-٦. Tech stack
-٧. أعمال مستقبلية
-٨. الترخيص
+1. Clear title + logo/image
+2. The problem statement
+3. Solution architecture (diagram)
+4. Results (metrics + visualizations)
+5. How to run it (`make run` or clone & install steps)
+6. Tech stack
+7. Future work
+8. License
 
-شوف [`templates/project-readme-template.md`](../../templates/project-readme-template.md) للقالب.
-
----
-
-## التسليم النهائي
-
-١. **Repo على GitHub** — public, well-documented
-٢. **Blog post** — Medium / LinkedIn / Hashnode (٨٠٠–١٥٠٠ كلمة)
-٣. **Demo** — إذا ينفع: Hugging Face Space أو Streamlit Cloud أو deploy على Railway
-٤. **LinkedIn post** — صورة + ٣ نقاط من اللي تعلمته
-٥. **(مكافأة)** فيديو ٣ دقائق على YouTube يشرح المشروع
+See [`templates/project-readme-template.md`](../../templates/project-readme-template.md) for the template.
 
 ---
 
-## بعد الـ Capstone — الخطوات التالية
+## Final Submission
 
-- اختار track من [`tracks/`](../../tracks/) للتخصص
-- ابدأ تتقدم لتدريبات صيفية
-- ساهم في open source
-- اكتب paper لو عندك نتائج بحثية
-- استمر تتعلم — الـ field يتحرك بسرعة
+1. **Repo on GitHub** — public, well-documented
+2. **Blog post** — Medium / LinkedIn / Hashnode (800–1500 words)
+3. **Demo** — if feasible: Hugging Face Space, Streamlit Cloud, or deploy on Railway
+4. **LinkedIn post** — image + 3 things you learned
+5. **(Bonus)** A 3-minute YouTube video explaining the project
 
 ---
 
-🎉 **مبروك. لو وصلت هنا، مو مبتدئ بعد. هذا بداية رحلتك الفعلية.**
+## After the Capstone — Next Steps
 
-[**← الأسبوع ١١**](../week-11-nlp-llms/) · [**العودة للمنهج**](../README.md)
+- Choose a track from [`tracks/`](../../tracks/) to specialize in
+- Start applying for summer internships
+- Contribute to open source
+- Write a paper if you have research results
+- Keep learning — the field moves fast
 
-</div>
+---
+
+🎉 **Congratulations. If you made it here, you're no longer a beginner. This is the start of your real journey.**
+
+[**← Week 11**](../week-11-nlp-llms/) · [**Back to Curriculum**](../README.md)
+

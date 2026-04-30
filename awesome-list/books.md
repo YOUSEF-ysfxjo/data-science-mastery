@@ -1,50 +1,47 @@
-<div dir="rtl">
+# 📖 Essential Books
 
-# 📖 الكتب الأساسية
-
-> ٧ كتب تكفيك. كل واحد فيها مذكور **متى** تقرأه و**ليش**.
+> 7 books. Each one is listed with **when** to read it and **why**.
 
 ---
 
 ## ⭐⭐⭐ [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/) — Aurélien Géron
-- **المستوى:** مبتدئ → متقدم
-- **متى تقرأه:** الأسابيع ٥–٩
-- **ليش:** الكتاب الواحد اللي ينصح فيه الجميع. عملي، شامل، مُحدَّث.
+- **Level:** Beginner → Advanced
+- **When to read:** Weeks 5–9
+- **Why:** The one book everyone recommends. Practical, comprehensive, and up-to-date.
 
 ## ⭐⭐⭐ [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) — Jake VanderPlas
-- **مجاني**، notebooks في Colab
-- **متى:** الأسابيع ١–٤
-- **ليش:** أحسن مرجع لـ NumPy + Pandas + Matplotlib + Scikit-Learn.
+- **Free**, notebooks in Colab
+- **When:** Weeks 1–4
+- **Why:** The best reference for NumPy + Pandas + Matplotlib + Scikit-Learn.
 
 ## ⭐⭐⭐ [Storytelling with Data](https://www.storytellingwithdata.com/) — Cole Knaflic
-- **متى:** الأسبوع ٤
-- **ليش:** تحوّل من "أرسم charts" إلى "أتواصل بـ charts". الفرق هائل.
+- **When:** Week 4
+- **Why:** Transforms you from "drawing charts" to "communicating with charts." The difference is enormous.
 
 ## ⭐⭐ [The Elements of Statistical Learning](https://hastie.su.domains/ElemStatLearn/) — Hastie, Tibshirani, Friedman
-- **مجاني** (PDF رسمي)
-- **المستوى:** متقدم، رياضيات كثيفة
-- **متى:** بعد المنهج، لو تتجه للبحث.
+- **Free** (official PDF)
+- **Level:** Advanced, heavy mathematics
+- **When:** After the curriculum, if you're heading toward research.
 
 ## ⭐⭐ [Deep Learning](https://www.deeplearningbook.org/) — Goodfellow, Bengio, Courville
-- **مجاني** (HTML)
-- **متى:** أثناء الأسابيع ٩–١١
-- **ليش:** المرجع الأكاديمي للـ DL. Chapter 6 خصوصاً.
+- **Free** (HTML)
+- **When:** During Weeks 9–11
+- **Why:** The academic DL reference. Chapter 6 especially.
 
 ## ⭐⭐ [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) — Jurafsky & Martin
-- **مجاني** (drafts)
-- **متى:** الأسبوع ١١
-- **ليش:** كتاب NLP الأساسي. الإصدار الثالث يغطي LLMs.
+- **Free** (drafts)
+- **When:** Week 11
+- **Why:** The foundational NLP book. The third edition covers LLMs.
 
 ## ⭐⭐ [Designing Machine Learning Systems](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/) — Chip Huyen
-- **متى:** بعد المنهج، لما تنتقل للـ production
-- **ليش:** يعلّمك كيف تبني ML systems تشتغل في العالم الحقيقي. أهم من أكثر كتب ML النظرية.
+- **When:** After the curriculum, when transitioning to production
+- **Why:** Teaches you how to build ML systems that work in the real world. More important than most theoretical ML books.
 
 ---
 
-## كتب اقتنيها بس ما تقرأها بالكامل (مرجعية)
+## Books to Own but Not Read Cover-to-Cover (Reference)
 
-- [Pattern Recognition and Machine Learning — Bishop](https://www.microsoft.com/en-us/research/people/cmbishop/) — مرجع
-- [Probabilistic Machine Learning — Kevin Murphy](https://probml.github.io/pml-book/) — مرجع حديث
-- [The Hundred-Page Machine Learning Book — Burkov](http://themlbook.com/) — مراجعة سريعة
+- [Pattern Recognition and Machine Learning — Bishop](https://www.microsoft.com/en-us/research/people/cmbishop/) — reference
+- [Probabilistic Machine Learning — Kevin Murphy](https://probml.github.io/pml-book/) — modern reference
+- [The Hundred-Page Machine Learning Book — Burkov](http://themlbook.com/) — quick review
 
-</div>

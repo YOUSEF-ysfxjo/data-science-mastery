@@ -1,96 +1,92 @@
-<div dir="rtl">
+# Week 2 — The Math You Actually Need
 
-# الأسبوع ٢ — الرياضيات اللي تحتاجها فعلاً
-## Week 2 — Math You Actually Need
-
-> **رسالة صريحة:** أكثر الناس يضيعون شهور في رياضيات ما يحتاجونها لعلم البيانات. هذا الأسبوع يعلّمك الجزء **اللازم فقط** — ٢٠٪ اللي يغطي ٨٠٪ من الاحتياج.
+> **Straight talk:** Most people waste months on math they don't need for data science. This week teaches you **only the necessary part** — the 20% that covers 80% of what you'll need.
 
 ---
 
-## ما تحتاج تكون "عبقري رياضيات"
+## You Don't Need to Be a "Math Genius"
 
-تحتاج تفهم ٤ أشياء بعمق متوسط:
+You need to understand 4 things at a moderate depth:
 
-1. **Linear Algebra** — vectors, matrices, dot product, eigenvalues (مفاهيم بس)
-2. **Calculus** — derivatives + gradient descent (مفاهيم، مو تكامل بإيدك)
+1. **Linear Algebra** — vectors, matrices, dot product, eigenvalues (concepts only)
+2. **Calculus** — derivatives + gradient descent (concepts, not manual integration)
 3. **Probability** — distributions, Bayes' theorem, expected value
 4. **Statistics** — mean/median/variance, hypothesis testing, correlation vs causation
 
-كل اللي زيادة عن هذا، تتعلمه لما تحتاجه.
+Everything beyond this, you learn when you need it.
 
 ---
 
-## الخطة اليومية
+## Daily Plan
 
-### يوم ١–٢: Linear Algebra
-- Vectors و matrix multiplication — وش معناها هندسياً
-- Dot product — ليش هو "تشابه"؟
+### Day 1–2: Linear Algebra
+- Vectors and matrix multiplication — what do they mean geometrically?
+- Dot product — why is it "similarity"?
 - Identity matrix, inverse, transpose
-- Eigenvalues + eigenvectors (المفهوم بس، مو الحساب اليدوي)
+- Eigenvalues + eigenvectors (concept only, not manual computation)
 
-**شاهد:** [3Blue1Brown — Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) — أحسن سلسلة في العالم. ١٢ فيديو.
+**Watch:** [3Blue1Brown — Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) — the best series in the world. 12 videos.
 
-### يوم ٣: Calculus
-- Derivatives = الميل
-- Chain rule — الأساس لكل deep learning
-- Gradient = derivative بس بأكثر من متغير
-- Gradient descent — كيف الـ NN يتعلم
+### Day 3: Calculus
+- Derivatives = slope
+- Chain rule — the foundation of all deep learning
+- Gradient = derivative with multiple variables
+- Gradient descent — how neural networks learn
 
-**شاهد:** [3Blue1Brown — Essence of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+**Watch:** [3Blue1Brown — Essence of Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
 
-### يوم ٤–٥: Probability
+### Day 4–5: Probability
 - Random variables, distributions (Normal, Binomial, Poisson)
 - Conditional probability + Bayes' theorem
 - Expected value & variance
-- Central Limit Theorem — ليش كل شيء "يبدو طبيعي"
+- Central Limit Theorem — why everything "looks normal"
 
-**اقرأ:** [Seeing Theory (Brown University)](https://seeing-theory.brown.edu/) — visualizations تفاعلية.
+**Read:** [Seeing Theory (Brown University)](https://seeing-theory.brown.edu/) — interactive visualizations.
 
-### يوم ٦: Statistics
+### Day 6: Statistics
 - Descriptive: mean, median, std, percentiles
-- Inferential: hypothesis testing, p-value (وش معناه فعلاً)
+- Inferential: hypothesis testing, p-value (what it actually means)
 - Correlation ≠ Causation
 - Confidence intervals
 
-### يوم ٧: التحدي الأسبوعي
-[انظر `exercise.md`](exercise.md)
+### Day 7: Weekly Challenge
+[See `exercise.md`](exercise.md)
 
 ---
 
-## المصادر المختارة
+## Curated Resources
 
-### الأساسي ⭐
-**[Mathematics for ML and Data Science Specialization — DeepLearning.AI](https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science)** — ٣ كورسات. خذها كلها لو ما عندك خلفية. مجاني بـ Audit.
+### Primary ⭐
+**[Mathematics for ML and Data Science Specialization — DeepLearning.AI](https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science)** — 3 courses. Take all of them if you have no background. Free to audit.
 
-### بالعربي
-**[قناة Khaled Al-Sarrar — Linear Algebra](https://www.youtube.com/@KhaledAlsarrar)** — شرح أكاديمي عربي ممتاز.
+### In Arabic
+**[Khaled Al-Sarrar's YouTube channel — Linear Algebra](https://www.youtube.com/@KhaledAlsarrar)** — excellent academic Arabic explanations.
 
-### للمراجعة السريعة
-**[Mathematics for Machine Learning (Book — مجاني)](https://mml-book.github.io/)** — Deisenroth, Faisal, Ong. ابدأ من Chapter 2.
+### For Quick Review
+**[Mathematics for Machine Learning (Book — free)](https://mml-book.github.io/)** — Deisenroth, Faisal, Ong. Start from Chapter 2.
 
 ---
 
-## أهم المفاهيم اللي ترجع لها كل وقت
+## Key Concepts You'll Come Back to Again and Again
 
-| المفهوم | متى يطلع |
+| Concept | When it appears |
 |---|---|
 | **Dot product** | Cosine similarity, attention mechanism, kernel methods |
-| **Matrix multiplication** | كل layer في neural network |
+| **Matrix multiplication** | Every layer in a neural network |
 | **Eigenvectors** | PCA (week 8) |
-| **Gradient descent** | تدريب أي model |
+| **Gradient descent** | Training any model |
 | **Bayes' theorem** | Naive Bayes, A/B testing |
-| **Normal distribution** | كل اختبار إحصائي تقريباً |
+| **Normal distribution** | Almost every statistical test |
 
 ---
 
-## تحذيرات
+## Warnings
 
-❌ لا تتعمق في proofs الرياضية الآن. جاهز للتطبيق > جاهز للنظرية.
-❌ لا تحاول تحفظ صيغ. افهم intuition وارجع للصيغة لما تحتاجها.
-❌ لا تأخذ كورس Linear Algebra جامعي كامل قبل ما تكمل. **30%** كافي للبداية.
+❌ Don't dive into mathematical proofs now. Ready to apply > ready to theorize.
+❌ Don't try to memorize formulas. Understand the intuition and look up the formula when you need it.
+❌ Don't take a full university Linear Algebra course before moving on. **30%** is enough to get started.
 
 ---
 
-[**← الأسبوع ١**](../week-01-python-foundations/) · [**التمرين →**](exercise.md) · [**الأسبوع ٣ →**](../week-03-data-wrangling/)
+[**← Week 1**](../week-01-python-foundations/) · [**Exercise →**](exercise.md) · [**Week 3 →**](../week-03-data-wrangling/)
 
-</div>

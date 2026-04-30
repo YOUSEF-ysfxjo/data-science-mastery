@@ -1,22 +1,19 @@
-<div dir="rtl">
-
-# الأسبوع ١٠ — الرؤية الحاسوبية
-## Week 10 — Computer Vision
+# Week 10 — Computer Vision
 
 ---
 
-## ماذا تتعلم
+## What You Learn
 
 ### CNNs (Convolutional Neural Networks)
-- Convolution operation — وش يسوي
+- Convolution operation — what does it do?
 - Pooling (Max, Average)
 - Architecture classics: LeNet, AlexNet, VGG, ResNet
-- ليش CNNs أحسن من MLPs للصور
+- Why CNNs are better than MLPs for images
 
 ### Transfer Learning
-- استخدم نماذج مدرّبة مسبقاً (ResNet50, EfficientNet)
+- Use pre-trained models (ResNet50, EfficientNet)
 - Freeze layers, fine-tune top
-- ⭐ **هذا اللي يستخدمه الناس فعلاً في الشغل، مو تدريب من الصفر.**
+- ⭐ **This is what people actually use at work — not training from scratch.**
 
 ### Modern Approaches
 - Vision Transformers (ViT)
@@ -31,30 +28,29 @@
 
 ---
 
-## المكتبات
+## Libraries
 
-- **torchvision** — datasets + models جاهزة
-- **timm** — ٧٠٠+ نموذج CV مدرّب مسبقاً
-- **albumentations** — augmentations سريعة
-- **OpenCV** — image processing الكلاسيكي
+- **torchvision** — ready-to-use datasets + models
+- **timm** — 700+ pre-trained CV models
+- **albumentations** — fast augmentations
+- **OpenCV** — classic image processing
 
 ---
 
-## المصادر
+## Resources
 
-- ⭐ **[CS231n — Stanford (Andrej Karpathy original)](http://cs231n.stanford.edu/)** — معيار العالم
+- ⭐ **[CS231n — Stanford (Andrej Karpathy original)](http://cs231n.stanford.edu/)** — the world standard
 - ⭐ **[Practical Deep Learning for Coders — fast.ai](https://course.fast.ai/)** — top-down approach
-- **[KAUST Academy CV Course](https://academy.kaust.edu.sa/)** — لو سعودي، هذا الخيار الأنسب
+- **[KAUST Academy CV Course](https://academy.kaust.edu.sa/)** — if you're in Saudi Arabia, this is the best local option
 - [PyTorch Vision Tutorials](https://pytorch.org/vision/stable/index.html)
 
 ---
 
-## التحدي
+## Challenge
 
-استخدم Transfer Learning مع ResNet50 لتصنيف dataset من اختيارك ([ChestX-ray, Cats vs Dogs, Custom](https://www.kaggle.com/datasets)). ارفع النموذج على Hugging Face Hub.
+Use Transfer Learning with ResNet50 to classify a dataset of your choice ([ChestX-ray, Cats vs Dogs, Custom](https://www.kaggle.com/datasets)). Upload the model to Hugging Face Hub.
 
 ---
 
-[**← الأسبوع ٩**](../week-09-neural-networks/) · [**الأسبوع ١١ →**](../week-11-nlp-llms/)
+[**← Week 9**](../week-09-neural-networks/) · [**Week 11 →**](../week-11-nlp-llms/)
 
-</div>

@@ -1,41 +1,39 @@
-<div dir="rtl">
+# Quiz — Week 1
 
-# Quiz — الأسبوع ١
-
-جاوب بدون فتح المراجع. الإجابات تحت (مغلقة).
+Answer without opening any references. Answers are below (collapsed).
 
 ---
 
-**١.** ما الفرق بين `df.loc[0]` و `df.iloc[0]`؟
+**1.** What is the difference between `df.loc[0]` and `df.iloc[0]`?
 
-<details><summary>الإجابة</summary>
+<details><summary>Answer</summary>
 
-`loc` يستخدم الـ **labels** (أسماء الـ index)، بينما `iloc` يستخدم الـ **positions** (الأرقام). لو الـ index ما بدأ من ٠، النتائج تختلف.
+`loc` uses **labels** (index names), while `iloc` uses **positions** (integer indices). If the index doesn't start at 0, the results will differ.
 </details>
 
 ---
 
-**٢.** ليش `np.array` أسرع من `list` في العمليات الحسابية؟
+**2.** Why is `np.array` faster than a `list` for numerical operations?
 
-<details><summary>الإجابة</summary>
+<details><summary>Answer</summary>
 
-NumPy arrays مخزّنة في الذاكرة كـ **contiguous block** بنوع موحّد، فالـ CPU يقدر يستخدم vectorization (SIMD). Lists فيها pointers لـ Python objects متفرقة.
+NumPy arrays are stored in memory as a **contiguous block** of a uniform type, so the CPU can use vectorization (SIMD). Lists contain pointers to scattered Python objects.
 </details>
 
 ---
 
-**٣.** وش الفرق بين `df.dropna()` و `df.dropna(inplace=True)`؟
+**3.** What is the difference between `df.dropna()` and `df.dropna(inplace=True)`?
 
-<details><summary>الإجابة</summary>
+<details><summary>Answer</summary>
 
-الأول يرجع **DataFrame جديد** ما يعدّل الأصلي. الثاني يعدّل الأصلي ويرجع `None`. أكثر developers Pandas يفضّلون الأول (`df = df.dropna()`) لأنه أوضح.
+The first returns a **new DataFrame** without modifying the original. The second modifies the original and returns `None`. Most Pandas developers prefer the first form (`df = df.dropna()`) because it's more explicit.
 </details>
 
 ---
 
-**٤.** كيف تطلع متوسط الراتب لكل مدينة من DataFrame فيه أعمدة `city`, `salary`؟
+**4.** How do you get the average salary per city from a DataFrame with `city` and `salary` columns?
 
-<details><summary>الإجابة</summary>
+<details><summary>Answer</summary>
 
 ```python
 df.groupby("city")["salary"].mean()
@@ -44,11 +42,10 @@ df.groupby("city")["salary"].mean()
 
 ---
 
-**٥.** متى تستخدم `.copy()`؟
+**5.** When should you use `.copy()`?
 
-<details><summary>الإجابة</summary>
+<details><summary>Answer</summary>
 
-لما تبي تعمل DataFrame جديد ما يأثر على الأصلي. خاصة لو راح تعدّل عليه. بدون `.copy()` ممكن تحصل `SettingWithCopyWarning` في Pandas.
+When you want to create a new DataFrame that won't affect the original, especially if you plan to modify it. Without `.copy()` you may get a `SettingWithCopyWarning` in Pandas.
 </details>
 
-</div>

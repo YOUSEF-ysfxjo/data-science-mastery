@@ -1,14 +1,12 @@
-<div dir="rtl">
+# 🗂️ Datasets for Practice
 
-# 🗂️ Datasets للممارسة
-
-> مرتبة من الأسهل للأصعب. كل dataset مع اقتراح مشروع.
+> Sorted from easiest to hardest. Each dataset comes with a suggested project.
 
 ---
 
-## مبتدئ
+## Beginner
 
-| Dataset | المهمة | المصدر |
+| Dataset | Task | Source |
 |---|---|---|
 | Titanic | Classification | [Kaggle](https://www.kaggle.com/c/titanic) |
 | Iris | Classification | sklearn built-in |
@@ -16,9 +14,9 @@
 | MNIST | Image classification | torchvision |
 | Wine Quality | Multi-class classification | [UCI](https://archive.ics.uci.edu/ml/datasets/wine+quality) |
 
-## متوسط
+## Intermediate
 
-| Dataset | المهمة | المصدر |
+| Dataset | Task | Source |
 |---|---|---|
 | House Prices (Ames) | Regression | [Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques) |
 | Credit Card Fraud | Imbalanced classification | [Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud) |
@@ -26,9 +24,9 @@
 | IMDB Reviews | Sentiment (English) | torchtext / HF |
 | CIFAR-10 | Image classification | torchvision |
 
-## متقدم
+## Advanced
 
-| Dataset | المهمة | المصدر |
+| Dataset | Task | Source |
 |---|---|---|
 | Common Crawl | Pre-training LLMs | [commoncrawl.org](https://commoncrawl.org/) |
 | ImageNet | Image classification | [image-net.org](http://www.image-net.org/) |
@@ -37,9 +35,9 @@
 
 ---
 
-## Datasets عربية
+## Arabic Datasets
 
-| Dataset | المهمة | المصدر |
+| Dataset | Task | Source |
 |---|---|---|
 | ArabicSquad | QA | [Hugging Face](https://huggingface.co/datasets/arabic_squad) |
 | ASTD | Twitter sentiment | [GitHub](https://github.com/mahmoudnabil/ASTD) |
@@ -50,12 +48,11 @@
 
 ---
 
-## مصادر Datasets عامة
+## General Dataset Sources
 
-- [Kaggle Datasets](https://www.kaggle.com/datasets) — الأكبر والأكثر تنوعاً
-- [Hugging Face Datasets](https://huggingface.co/datasets) — لـ NLP خصوصاً
+- [Kaggle Datasets](https://www.kaggle.com/datasets) — the largest and most diverse
+- [Hugging Face Datasets](https://huggingface.co/datasets) — especially for NLP
 - [Google Dataset Search](https://datasetsearch.research.google.com/)
 - [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
-- [Saudi Open Data Portal](https://data.gov.sa/) — للمشاريع المحلية
+- [Saudi Open Data Portal](https://data.gov.sa/) — for local projects
 
-</div>
