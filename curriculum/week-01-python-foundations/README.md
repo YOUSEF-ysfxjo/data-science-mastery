@@ -60,7 +60,7 @@ R is an excellent language but Python has won in industry. R remains useful for 
 **[Python for Everybody — Dr. Charles Severance (Coursera)](https://www.coursera.org/specializations/python)** — free to audit. Take Course 1 + 2 if Python is new to you.
 
 ### In Arabic
-**[Mohammed Zyad's YouTube channel — Python in Arabic](https://www.youtube.com/@MhdZiyaa)** — calm and clear explanations.
+**[Elzero Web School — Mastering Python (Arabic playlist)](https://www.youtube.com/playlist?list=PLDoPjvoNmBAyE_gei5d18qkfIe-Z8mocs)** — clear, structured lessons from beginner to advanced.
 
 > **Don't distract yourself.** Pick one and commit. The rest is noise.
 
